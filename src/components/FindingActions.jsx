@@ -1,5 +1,6 @@
 import { Sparkles } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { aiExplainFinding } from "../services/ai";
 import { updateFindingStatus } from "../services/batches";
@@ -7,7 +8,7 @@ import Button from "./Button";
 import { inputClass } from "./Field";
 
 // Acciones del ciclo de vida de un hallazgo según rol y responsable. La base de datos vuelve a validar cada regla.
-export default function FindingActions({ finding, batchStatus, onChanged, rule }) {
+export default function FindingActions({ finding, batchStatus, onChanged, rule, correctTo }) {
   const { role } = useAuth();
   const [open, setOpen] = useState(null);
   const [note, setNote] = useState("");
@@ -22,7 +23,8 @@ export default function FindingActions({ finding, batchStatus, onChanged, rule }
 
   const options = [];
   if (editable && finding.status === "open" && canWork) options.push(["in_correction", "Marcar en corrección"]);
-  if (editable && ["open", "in_correction"].includes(finding.status) && canWork) options.push(["resolved", "Resolver"]);
+  // Un bloqueante no se resuelve con una nota: se corrige el dato y el lote se valida de nuevo.
+  if (editable && ["open", "in_correction"].includes(finding.status) && canWork && finding.severity === "warning") options.push(["resolved", "Resolver"]);
   if (editable && ["open", "in_correction"].includes(finding.status) && canAccept) options.push(["accepted", "Aceptar con justificación"]);
   if (editable && ["resolved", "accepted", "in_correction"].includes(finding.status) && (canWork || canAccept)) options.push(["open", "Reabrir"]);
 
@@ -52,6 +54,9 @@ export default function FindingActions({ finding, batchStatus, onChanged, rule }
           ) : (
             <button key={status} type="button" disabled={busy} onClick={() => apply(status)} className={smallBtn}>{label}</button>
           )
+        )}
+        {correctTo && ["open", "in_correction"].includes(finding.status) && (
+          <Link to={correctTo} className={`${smallBtn} inline-flex items-center bg-petroleo text-white hover:bg-petroleo-hover`}>Corregir fila</Link>
         )}
         <Explain finding={finding} rule={rule} explanation={explanation} setExplanation={setExplanation} inline />
       </div>

@@ -1,6 +1,6 @@
 import { CircleCheck, Download, Undo2 } from "lucide-react";
 import { useMemo, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import Button from "../components/Button";
 import { inputClass } from "../components/Field";
 import FindingActions from "../components/FindingActions";
@@ -11,9 +11,10 @@ import { BATCH_STATUS, countOpen, DispositionBadge, Verdict } from "../component
 import { useAuth } from "../context/AuthContext";
 import { formatPeriod } from "../context/PeriodContext";
 import { useAsync } from "../hooks/useAsync";
-import { formatDate } from "../lib/dates";
-import { approveBatch, getBatch, getBatchFileUrl, getBatchFindings, getBatchRows, rejectBatch } from "../services/batches";
-import { getValidationRules } from "../services/reference";
+import BatchRowsEditor from "../components/BatchRowsEditor";
+import { downloadText, toCsv } from "../lib/export/canonical";
+import { approveBatch, getBatch, getBatchFileUrl, getBatchFindings, getEditableRows, rejectBatch } from "../services/batches";
+import { getCountries, getValidationRules } from "../services/reference";
 import { logEvent } from "../services/admin";
 
 export default function BatchDetail() {
@@ -22,7 +23,12 @@ export default function BatchDetail() {
   const batch = useAsync(() => getBatch(id), [id]);
   const findings = useAsync(() => getBatchFindings(id), [id]);
   const rules = useAsync(() => (batch.data ? getValidationRules(batch.data.country_code) : Promise.resolve({ data: [] })), [batch.data?.country_code]);
-  const [tab, setTab] = useState("findings");
+  const countries = useAsync(() => getCountries(), []);
+  const [params] = useSearchParams();
+  const focusRow = Number(params.get("fila")) || null;
+  const [tab, setTab] = useState(focusRow ? "rows" : "findings");
+  const [downloading, setDownloading] = useState(false);
+  const [downloadError, setDownloadError] = useState(null);
 
   const ruleByCode = useMemo(() => {
     const out = {};
@@ -42,6 +48,34 @@ export default function BatchDetail() {
     findings.reload();
   };
 
+  const country = (countries.data || []).find((c) => c.code === b.country_code);
+  const canEdit = b.status === "validated" && ["site_supervisor", "central_analyst"].includes(role);
+
+  // Archivo con los datos tal como quedaron tras las correcciones, en el formato de la plantilla:
+  // se puede volver a subir directamente. El nombre cumple el patrón NOV_<PAÍS>_<PLANTA>_<AAAA-MM>.
+  async function downloadCorrected() {
+    setDownloading(true);
+    setDownloadError(null);
+    const res = await getEditableRows(b.id, "download");
+    setDownloading(false);
+    if (res.error) {
+      setDownloadError(res.error.message);
+      return;
+    }
+    const columns = ["rut", "codigo_empleado", "concepto", "fecha", "cantidad", "unidad", "respaldo", "modificado"];
+    const lines = res.data.map((r) => ({
+      rut: r.national_id,
+      codigo_empleado: r.employee_code,
+      concepto: r.concept_code,
+      fecha: r.date,
+      cantidad: r.quantity,
+      unidad: r.unit,
+      respaldo: r.support_ref,
+      modificado: r.edited ? "Sí" : "No",
+    }));
+    downloadText(`NOV_${b.country_code}_${b.sites?.code}_${b.period}.csv`, toCsv(columns, lines));
+  }
+
   async function downloadOriginal() {
     const res = await getBatchFileUrl(b.file_path);
     if (!res.error) {
@@ -55,8 +89,14 @@ export default function BatchDetail() {
       <PageHeader
         title={`Lote ${b.sites?.name} · ${formatPeriod(b.period)}`}
         subtitle={`${b.source === "mobile" ? "Captura en terreno" : b.file_name} · ${b.row_count} filas · enviado el ${new Date(b.created_at).toLocaleString("es-CL")}`}
-        actions={b.file_path && <Button variant="secondary" icon={Download} onClick={downloadOriginal}>Archivo original</Button>}
+        actions={
+          <>
+            {b.file_path && <Button variant="secondary" icon={Download} onClick={downloadOriginal}>Archivo original</Button>}
+            <Button variant="secondary" icon={Download} onClick={downloadCorrected} loading={downloading} loadingText="Preparando…">Descargar archivo corregido</Button>
+          </>
+        }
       />
+      {downloadError && <p role="alert" className="mb-4 rounded-md bg-bloqueado-suave px-3 py-2 text-sm text-bloqueado">{downloadError}</p>}
       <Link to="/" className="mb-4 inline-block text-sm text-petroleo hover:underline">← Volver al panel</Link>
 
       <div className="mb-6 grid gap-4 lg:grid-cols-[1fr_360px]">
@@ -87,10 +127,10 @@ export default function BatchDetail() {
         ) : list.length === 0 ? (
           <EmptyState title="Sin hallazgos">El motor no encontró errores ni advertencias en este lote.</EmptyState>
         ) : (
-          <FindingsTable findings={list} showStatus renderActions={(f) => <FindingActions finding={f} batchStatus={b.status} rule={ruleByCode[f.code]} onChanged={refresh} />} />
+          <FindingsTable findings={list} showStatus renderActions={(f) => <FindingActions finding={f} batchStatus={b.status} rule={ruleByCode[f.code]} onChanged={refresh} correctTo={canEdit && f.row_number ? `/lotes/${b.id}?fila=${f.row_number}` : null} />} />
         )
       ) : (
-        <RowsTable batchId={b.id} />
+        country ? <BatchRowsEditor batch={b} country={country} findings={list} canEdit={canEdit} focusRow={focusRow} onSaved={refresh} /> : <LoadingState label="Cargando filas…" />
       )}
     </>
   );
@@ -150,45 +190,5 @@ function DecisionPanel({ batch, role, onDone }) {
       </div>
       {blocked && <p className="mt-2 text-xs text-niebla">No se puede aprobar: quedan hallazgos bloqueantes abiertos.</p>}
     </section>
-  );
-}
-
-function RowsTable({ batchId }) {
-  const rows = useAsync(() => getBatchRows(batchId), [batchId]);
-  if (rows.loading) return <LoadingState label="Cargando filas…" />;
-  if (rows.error) return <ErrorState message={rows.error.message} onRetry={rows.reload} />;
-  if (!rows.data.length) return <EmptyState title="El lote no tiene filas" />;
-  return (
-    <div className="max-h-[70vh] overflow-auto rounded-lg border border-linea bg-superficie">
-      <table className="tabular w-full min-w-[720px] text-sm">
-        <caption className="sr-only">Filas normalizadas del lote</caption>
-        <thead className="sticky top-0 bg-pizarra text-left text-xs uppercase tracking-wide text-white">
-          <tr>
-            <th scope="col" className="px-3 py-2 text-right">Fila</th>
-            <th scope="col" className="px-3 py-2">Código</th>
-            <th scope="col" className="px-3 py-2">Identificador</th>
-            <th scope="col" className="px-3 py-2">Concepto</th>
-            <th scope="col" className="px-3 py-2">Fecha</th>
-            <th scope="col" className="px-3 py-2 text-right">Cantidad</th>
-            <th scope="col" className="px-3 py-2">Unidad</th>
-            <th scope="col" className="px-3 py-2">Respaldo</th>
-          </tr>
-        </thead>
-        <tbody className="divide-y divide-linea">
-          {rows.data.map((r) => (
-            <tr key={r.id} className="hover:bg-papel">
-              <td className="px-3 py-2 text-right">{r.row_number}</td>
-              <td className="px-3 py-2">{r.employee_code || "—"}</td>
-              <td className="px-3 py-2">{r.national_id_masked || "—"}</td>
-              <td className="px-3 py-2">{r.concept_code || "—"}</td>
-              <td className="px-3 py-2">{formatDate(r.date)}</td>
-              <td className="px-3 py-2 text-right">{r.quantity ?? "—"}</td>
-              <td className="px-3 py-2">{r.unit === "hours" ? "horas" : r.unit === "days" ? "días" : r.unit || "—"}</td>
-              <td className="px-3 py-2">{r.support_ref || "—"}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
   );
 }

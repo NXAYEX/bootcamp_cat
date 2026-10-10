@@ -31,7 +31,8 @@ Todo supuesto de negocio, legal o técnico se registra aquí (CLAUDE.md §17). L
 | V3 | El tope semanal se mide por semana ISO (lunes a domingo). | Convención simple y verificable. |
 | V4 | Un valor es atípico si supera el promedio histórico en más de 3 desviaciones estándar (mínimo 1) y hay al menos 3 meses de historial. | Regla estadística simple y explicable. |
 | V5 | La validación se ejecuta en el navegador y la base de datos recalcula la disposición desde los hallazgos. **Límite conocido:** un cliente modificado podría omitir hallazgos al enviar. Mejora futura: ejecutar el mismo motor en una Edge Function. | CLAUDE.md §14. |
-| V6 | El RUT completo no se guarda en las filas del lote (solo enmascarado) y no es legible por la API; solo aparece en la exportación aprobada, tomado del maestro. | Minimización de datos personales. |
+| V6 | El identificador completo (RUT) se guarda en `batch_rows.national_id_input`, una columna que la API no puede leer; solo lo devuelven `get_batch_rows_editable` (corregir y descargar), a quien ya tiene acceso al lote y con registro en auditoría, y la exportación aprobada. En pantalla y en `findings` siempre va enmascarado. | Permite corregir y descargar el archivo sin que la API exponga RUT. |
+| V8 | Un hallazgo bloqueante no se resuelve con una nota: se corrige la fila en la pestaña Filas, se valida todo el lote de nuevo y los hallazgos se recalculan. Las advertencias ya aceptadas se conservan. Cada cambio queda en `batch_row_edits` y en `audit_log`. | El veredicto debe depender del dato, no de una justificación. |
 | V7 | Las novedades se informan por día (una fila por trabajador, fecha y concepto). Los rangos de vacaciones se informan como un día por fila. | Simplifica las validaciones cruzadas por día. |
 
 ## Acceso

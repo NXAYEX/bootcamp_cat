@@ -25,6 +25,7 @@ Leyenda: `[x]` hecho y verificado · `[~]` hecho en código, falta verificar en 
 ## Fase 5 — Subida de Excel/CSV
 - [x] `005_batches.sql` (lotes, filas, hallazgos, RPC, bucket privado)
 - [~] /lotes/nuevo y /lotes/:id (mapeo, validación, envío, decisión, archivo original)
+- [~] Corrección de filas en /lotes/:id, re-validación del lote, historial de cambios y descarga del archivo corregido (`009_row_corrections.sql`)
 
 ## Fase 6 — Excepciones y exportación
 - [~] /excepciones (ciclo de vida, aceptación con justificación) y /exportaciones (CSV canónico, solo aprobados)

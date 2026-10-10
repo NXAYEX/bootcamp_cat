@@ -48,11 +48,13 @@ export const listOpenFindings = ({ period, siteId, severity, owner, status } = {
   });
 
 // Datos previos del periodo para DUP-002 (huella) y DUP-003 (novedad repetida entre lotes).
-export async function getPriorBatchData({ siteId, period }) {
+// excludeBatchId: al volver a validar un lote corregido no debe compararse contra sí mismo.
+export async function getPriorBatchData({ siteId, period, excludeBatchId }) {
   const batches = await run((sb) =>
     sb.from("batches").select("id, fingerprint, status").eq("site_id", siteId).eq("period", period).neq("status", "rejected")
   );
   if (batches.error) return batches;
+  batches.data = batches.data.filter((b) => b.id !== excludeBatchId);
   const ids = batches.data.map((b) => b.id);
   if (ids.length === 0) return { data: { fingerprints: [], rowKeys: [] }, error: null };
   const rows = await run((sb) => sb.from("batch_rows").select("employee_code, date, concept_code").in("batch_id", ids).limit(50000));
@@ -68,6 +70,16 @@ export async function getPriorBatchData({ siteId, period }) {
 
 export const submitBatch = (batch, rows, findings) =>
   run((sb) => sb.rpc("submit_batch", { p_batch: batch, p_rows: rows, p_findings: findings }));
+
+export const listRowEdits = (batchId) =>
+  run((sb) => sb.from("batch_row_edits").select("id, row_number, field, old_value, new_value, created_at").eq("batch_id", batchId).order("created_at", { ascending: false }).limit(500));
+
+// Filas con el identificador completo: la función valida el acceso y deja registro en audit_log.
+export const getEditableRows = (batchId, purpose = "edit") =>
+  run((sb) => sb.rpc("get_batch_rows_editable", { p_batch_id: batchId, p_purpose: purpose }));
+
+export const correctBatch = (batchId, rows, findings, fingerprint, edits) =>
+  run((sb) => sb.rpc("correct_batch", { p_batch_id: batchId, p_rows: rows, p_findings: findings, p_fingerprint: fingerprint, p_edits: edits }));
 
 export const updateFindingStatus = (findingId, status, note) =>
   run((sb) => sb.rpc("update_finding_status", { p_finding_id: findingId, p_status: status, p_note: note ?? null }));

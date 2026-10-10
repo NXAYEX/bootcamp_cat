@@ -22,11 +22,13 @@ function cell(value) {
   return /[",;\n\r]/.test(safe) ? `"${safe.replace(/"/g, '""')}"` : safe;
 }
 
-export function toCanonicalCsv(rows) {
-  const lines = [CANONICAL_COLUMNS.join(",")];
-  for (const r of rows) lines.push(CANONICAL_COLUMNS.map((c) => cell(r[c])).join(","));
+export function toCsv(columns, rows) {
+  const lines = [columns.join(",")];
+  for (const r of rows) lines.push(columns.map((c) => cell(r[c])).join(","));
   return `${lines.join("\r\n")}\r\n`;
 }
+
+export const toCanonicalCsv = (rows) => toCsv(CANONICAL_COLUMNS, rows);
 
 export function downloadText(fileName, text, type = "text/csv;charset=utf-8") {
   const blob = new Blob(["﻿", text], { type });

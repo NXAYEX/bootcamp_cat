@@ -4,7 +4,7 @@ import { getEmployeeHistoryStats, getSiteHistoryStats, matchEmployees } from "./
 
 // Arma el contexto del motor de validación a partir de Supabase.
 // El motor es puro: todo lo que depende del país llega aquí como datos.
-export async function loadValidationContext({ country, site, period, rows, today }) {
+export async function loadValidationContext({ country, site, period, rows, today, excludeBatchId }) {
   const nationalIds = [...new Set(rows.map((r) => r.national_id).filter(Boolean))];
   const codes = [...new Set(rows.map((r) => r.employee_code).filter(Boolean).map(String))];
 
@@ -13,7 +13,7 @@ export async function loadValidationContext({ country, site, period, rows, today
     getCountryRules(country.code),
     getValidationRules(country.code),
     getPeriods(country.code),
-    getPriorBatchData({ siteId: site.id, period }),
+    getPriorBatchData({ siteId: site.id, period, excludeBatchId }),
     getEmployeeHistoryStats(site.code),
     getSiteHistoryStats(site.code),
     nationalIds.length + codes.length > 0 ? matchEmployees(country.code, normalizeIds(nationalIds), codes) : Promise.resolve({ data: [], error: null }),

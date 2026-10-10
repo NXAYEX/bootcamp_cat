@@ -83,7 +83,7 @@ export default function Exceptions() {
                 </p>
                 {f.resolution_note && <p className="mt-1 text-xs text-niebla">Nota: {f.resolution_note}</p>}
               </div>
-              <FindingActions finding={f} batchStatus={f.batches?.status} rule={ruleByCode[f.code]} onChanged={q.reload} />
+              <FindingActions finding={f} batchStatus={f.batches?.status} rule={ruleByCode[f.code]} onChanged={q.reload} correctTo={f.row_number ? `/lotes/${f.batch_id}?fila=${f.row_number}` : null} />
             </li>
           ))}
         </ul>

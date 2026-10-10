@@ -1,0 +1,148 @@
+-- 003 · Datos de referencia globales y de Chile
+-- ARCHIVO GENERADO por scripts/build-seed.mjs desde supabase/seed/source/. No editar a mano.
+-- Todos los datos son SINTÉTICOS. Las reglas legales son referenciales.
+
+insert into public.validation_rules (code, country_code, name, severity, owner, message_template) values
+  ('STR-001', null, 'Columna obligatoria faltante', 'blocking', 'site', 'Falta la columna obligatoria «{fieldLabel}».'),
+  ('STR-002', null, 'Columna renombrada', 'info', 'central', 'La columna «{header}» se interpretó como «{fieldLabel}». Confirma que es correcto.'),
+  ('STR-003', null, 'Archivo sin filas', 'blocking', 'site', 'El archivo no tiene filas con novedades.'),
+  ('STR-004', null, 'Tipo de dato inválido', 'blocking', 'site', 'Valor inválido en «{fieldLabel}»: «{value}». {detail}'),
+  ('STR-005', null, 'Nombre de archivo fuera de patrón', 'warning', 'site', 'El nombre «{fileName}» no sigue el patrón NOV_<PAÍS>_<PLANTA>_<AAAA-MM>.'),
+  ('IDN-001', null, 'Identificador nacional inválido', 'blocking', 'site', '{idLabel} inválido: «{value}».'),
+  ('IDN-002', null, 'Empleado inexistente en el maestro', 'blocking', 'central', 'El trabajador {value} no existe en el maestro de empleados.'),
+  ('IDN-003', null, 'Empleado de otra planta', 'blocking', 'site', 'El trabajador {employeeCode} pertenece a la planta {employeeSite}, no a {site}.'),
+  ('IDN-004', null, 'Empleado desvinculado', 'blocking', 'central', 'El trabajador {employeeCode} fue desvinculado el {terminationDate}; la novedad es del {date}.'),
+  ('IDN-005', null, 'Novedad anterior a la contratación', 'blocking', 'central', 'El trabajador {employeeCode} ingresó el {hireDate}; la novedad es del {date}.'),
+  ('IDN-006', null, 'Identificador y código no coinciden', 'blocking', 'site', 'El {idLabel} y el código {employeeCode} corresponden a trabajadores distintos.'),
+  ('PER-001', null, 'Fecha fuera del periodo', 'blocking', 'site', 'La fecha {date} está fuera del periodo declarado {period}.'),
+  ('PER-002', null, 'Periodo cerrado', 'blocking', 'central', 'El periodo {period} ya está cerrado para nómina.'),
+  ('PER-003', null, 'Fecha futura', 'blocking', 'site', 'La fecha {date} es futura.'),
+  ('DUP-001', null, 'Novedad repetida en el archivo', 'blocking', 'site', 'Novedad repetida: {employeeCode}, {conceptCode}, {date} (también en la fila {firstRow}).'),
+  ('DUP-002', null, 'Lote ya enviado', 'blocking', 'central', 'Este lote es idéntico a uno ya enviado para la misma planta y periodo.'),
+  ('DUP-003', null, 'Novedad ya informada en otro lote', 'warning', 'central', 'La novedad {employeeCode}, {conceptCode}, {date} ya fue informada en otro lote del periodo.'),
+  ('COH-001', null, 'Vacaciones y horas extra el mismo día', 'warning', 'site', 'Feriado y horas extraordinarias el mismo día ({date}).'),
+  ('COH-002', null, 'Ausencia y horas extra el mismo día', 'warning', 'site', 'Ausencia y horas extraordinarias el mismo día ({date}).'),
+  ('COH-003', null, 'Licencia médica cruzada con vacaciones', 'warning', 'site', 'Licencia médica cruzada con feriado el {date}.'),
+  ('COH-004', null, 'Feriado en día no hábil', 'warning', 'site', 'Feriado registrado en día no hábil ({date}).'),
+  ('LEG-001', null, 'Tope diario de horas extra', 'blocking', 'site', '{quantity} horas extraordinarias el {date}; el tope diario es {max}.'),
+  ('LEG-002', null, 'Tope semanal de horas extra', 'warning', 'central', '{total} horas extraordinarias en la semana {week}; el tope semanal es {max}.'),
+  ('LEG-003', null, 'Saldo de feriado insuficiente', 'blocking', 'central', 'Se informan {total} días de feriado y el saldo de {employeeCode} es {balance}.'),
+  ('LEG-004', null, 'Falta respaldo obligatorio', 'warning', 'site', 'El concepto {conceptCode} exige respaldo (folio de licencia o autorización) y no viene.'),
+  ('LEG-005', null, 'Jornada contractual sobre el límite legal', 'warning', 'central', 'La jornada contractual de {employeeCode} ({weeklyHours} h) supera la jornada legal vigente de {max} h.'),
+  ('CON-001', null, 'Concepto desconocido', 'blocking', 'site', 'El concepto «{value}» no existe.'),
+  ('CON-002', null, 'Concepto de otro país', 'blocking', 'site', 'El concepto «{value}» no existe en este país (solo en {otherCountries}).'),
+  ('CON-003', null, 'Unidad incorrecta', 'blocking', 'site', 'La unidad «{value}» no corresponde al concepto {conceptCode} (se espera {expectedUnit}).'),
+  ('RNG-001', null, 'Valor atípico del trabajador', 'warning', 'central', '{employeeCode} suma {total} en {categoryLabel}; su promedio histórico mensual es {mean}.'),
+  ('RNG-002', null, 'Total atípico de la planta', 'info', 'central', 'La planta suma {total} en {categoryLabel}; su promedio histórico mensual es {mean}.');
+
+insert into public.column_aliases (country_code, field, alias) values
+  (null, 'national_id', 'rut'),
+  (null, 'national_id', 'rut_empleado'),
+  (null, 'national_id', 'rut trabajador'),
+  (null, 'national_id', 'rut_trabajador'),
+  (null, 'national_id', 'run'),
+  (null, 'national_id', 'rut del trabajador'),
+  (null, 'national_id', 'id_nacional'),
+  (null, 'national_id', 'national_id'),
+  (null, 'national_id', 'dni'),
+  (null, 'national_id', 'documento'),
+  (null, 'employee_code', 'codigo_empleado'),
+  (null, 'employee_code', 'código empleado'),
+  (null, 'employee_code', 'cod_empleado'),
+  (null, 'employee_code', 'codigo'),
+  (null, 'employee_code', 'ficha'),
+  (null, 'employee_code', 'id_empleado'),
+  (null, 'employee_code', 'employee_id'),
+  (null, 'employee_code', 'legajo'),
+  (null, 'employee_code', 'worker_id'),
+  (null, 'employee_name', 'nombre'),
+  (null, 'employee_name', 'nombre_trabajador'),
+  (null, 'employee_name', 'nombre completo'),
+  (null, 'employee_name', 'trabajador'),
+  (null, 'employee_name', 'employee_name'),
+  (null, 'concept_code', 'concepto'),
+  (null, 'concept_code', 'cod_concepto'),
+  (null, 'concept_code', 'codigo_concepto'),
+  (null, 'concept_code', 'tipo'),
+  (null, 'concept_code', 'tipo_novedad'),
+  (null, 'concept_code', 'novedad'),
+  (null, 'concept_code', 'concept'),
+  (null, 'date', 'fecha'),
+  (null, 'date', 'fecha_novedad'),
+  (null, 'date', 'dia'),
+  (null, 'date', 'día'),
+  (null, 'date', 'date'),
+  (null, 'quantity', 'cantidad'),
+  (null, 'quantity', 'horas'),
+  (null, 'quantity', 'dias'),
+  (null, 'quantity', 'días'),
+  (null, 'quantity', 'cant'),
+  (null, 'quantity', 'valor'),
+  (null, 'quantity', 'quantity'),
+  (null, 'unit', 'unidad'),
+  (null, 'unit', 'um'),
+  (null, 'unit', 'unidad_medida'),
+  (null, 'unit', 'unit'),
+  (null, 'support_ref', 'respaldo'),
+  (null, 'support_ref', 'folio'),
+  (null, 'support_ref', 'folio_respaldo'),
+  (null, 'support_ref', 'autorizacion'),
+  (null, 'support_ref', 'autorización'),
+  (null, 'support_ref', 'documento_respaldo'),
+  (null, 'support_ref', 'support'),
+  (null, 'notes', 'observacion'),
+  (null, 'notes', 'observación'),
+  (null, 'notes', 'observaciones'),
+  (null, 'notes', 'comentario'),
+  (null, 'notes', 'notas'),
+  (null, 'notes', 'notes');
+
+insert into public.procedure_checklist_items (country_code, code, title, description, weight, keywords, min_hits_full, min_hits_partial, uses_country_rules, question, suggested_text, sort_order) values
+  (null, 'P-01', 'Propósito y alcance', 'Qué plantas y qué conceptos cubre el procedimiento.', 1, array['proposito', 'objetivo', 'alcance', 'aplica a', 'plantas', 'conceptos']::text[], 3, 1, false, '¿A qué plantas y a qué conceptos de novedades aplica este procedimiento?', 'Este procedimiento tiene por objetivo estandarizar la captura de novedades de remuneraciones (horas extraordinarias, feriado legal y ausencias) y aplica a las plantas <PLANTAS>.', 1),
+  (null, 'P-02', 'Disparador y calendario', 'Cuándo se captura y cuál es la fecha de corte.', 1, array['fecha de corte', 'corte', 'cada mes', 'mensual', 'calendario', 'dia habil', 'plazo']::text[], 3, 1, false, '¿Qué día se cierra la captura de novedades del mes?', 'Las novedades del mes se registran a más tardar el día <N> hábil del mes siguiente (fecha de corte), según el calendario de nómina publicado por el centro de operaciones.', 2),
+  (null, 'P-03', 'Roles y responsables', 'Quién captura, quién revisa y quién aprueba.', 1.5, array['supervisor', 'captura', 'revisa', 'aprueba', 'responsable', 'analista', 'centro de operaciones']::text[], 4, 2, false, '¿Quién registra, quién revisa y quién aprueba las novedades?', 'El supervisor de planta registra las novedades; el analista del centro de operaciones las revisa y aprueba la carga a nómina.', 3),
+  (null, 'P-04', 'Entradas exactas', 'Plantilla, columnas y códigos de concepto.', 1.5, array['plantilla', 'columna', 'rut', 'codigo de concepto', 'concepto', 'formato', 'fecha', 'cantidad']::text[], 4, 2, false, '¿Qué plantilla y qué columnas se deben llenar, y con qué códigos de concepto?', 'Se usa la plantilla oficial con las columnas rut, codigo_empleado, concepto, fecha, cantidad, unidad y respaldo. Los códigos de concepto válidos son los publicados en la tabla de conceptos.', 4),
+  (null, 'P-05', 'Respaldo requerido', 'Licencia médica, autorización de horas extra u otro respaldo.', 1, array['respaldo', 'licencia medica', 'folio', 'autorizacion', 'comprobante', 'adjuntar']::text[], 3, 1, false, '¿Qué respaldo se exige para una licencia médica o una hora extraordinaria?', 'Toda licencia médica se informa con su folio, y toda hora extraordinaria con la autorización firmada por la jefatura antes de su realización.', 5),
+  (null, 'P-06', 'Reglas legales locales', 'Topes y reglas vigentes del país (vinculadas a country_rules).', 2, array['tope', 'jornada', 'legal', 'ley', 'codigo del trabajo']::text[], 2, 1, true, '¿Cuál es el tope de horas extraordinarias y la jornada legal vigente que debo respetar?', 'Se deben respetar las reglas legales vigentes: <REGLAS_FALTANTES>.', 6),
+  (null, 'P-07', 'Validaciones antes de enviar', 'Qué se revisa antes de enviar el lote.', 1, array['validar', 'verificar', 'revisar', 'antes de enviar', 'duplicado', 'control']::text[], 3, 1, false, '¿Qué debo revisar antes de enviar el archivo?', 'Antes de enviar, se verifica que cada RUT exista en el maestro, que no haya novedades duplicadas y que las fechas correspondan al periodo.', 7),
+  (null, 'P-08', 'Excepciones y correcciones', 'Cómo se corrige un error detectado.', 1, array['excepcion', 'correccion', 'corregir', 'error', 'rechazo', 'reenviar']::text[], 3, 1, false, 'Si mi lote tiene un error, ¿quién lo corrige y cómo se reenvía?', 'Los errores de captura los corrige la planta y reenvía el lote; los errores del maestro de empleados los corrige el centro de operaciones.', 8),
+  (null, 'P-09', 'Escalamiento', 'A quién se escala y en qué plazo.', 1, array['escalar', 'escalamiento', 'regional', 'global', 'central', 'horas habiles', 'plazo']::text[], 3, 1, false, '¿A quién escalo un problema que no puedo resolver y en qué plazo?', 'Si un problema no se resuelve en 2 días hábiles, se escala al nivel regional; si afecta a varias áreas, a la central.', 9),
+  (null, 'P-10', 'Salida y canal de envío', 'Qué se entrega y por qué canal.', 1, array['envio', 'enviar', 'canal', 'sistema', 'nomina', 'correo', 'plataforma']::text[], 3, 1, false, '¿Por qué canal envío las novedades y qué recibe la nómina?', 'Las novedades se envían por el validador de novedades; no se aceptan archivos por correo. La nómina recibe el archivo en formato canónico aprobado.', 10),
+  (null, 'P-11', 'Accesos y confidencialidad', 'Quién accede a los datos y cómo se protegen.', 1, array['confidencial', 'acceso', 'datos personales', 'privacidad', 'autorizado', 'proteccion']::text[], 3, 1, false, '¿Quién puede ver los datos de los trabajadores y cómo se protegen?', 'Los datos de novedades son confidenciales: solo acceden el supervisor de la planta y los analistas asignados al país.', 11),
+  (null, 'P-12', 'Dueño y próxima revisión', 'Dueño del documento y fecha de próxima revisión.', 0.5, array['dueno', 'propietario', 'version', 'revision', 'proxima revision', 'vigencia']::text[], 3, 1, false, '¿Quién mantiene este procedimiento y cuándo se revisa?', 'Dueño del documento: <CARGO>. Próxima revisión: <FECHA>.', 12);
+
+insert into public.countries (code, name, national_id_label, national_id_validator, national_id_regex, timezone) values ('CL', 'Chile', 'RUT', 'rut_mod11', null, 'America/Santiago') on conflict (code) do nothing;
+insert into public.sites (country_code, code, name) values ('CL', 'CL-STG', 'Planta Santiago') on conflict (code) do nothing;
+insert into public.sites (country_code, code, name) values ('CL', 'CL-ANF', 'Planta Antofagasta') on conflict (code) do nothing;
+insert into public.sites (country_code, code, name) values ('CL', 'CL-CON', 'Planta Concepción') on conflict (code) do nothing;
+
+insert into public.concepts (country_code, code, name, unit, category, requires_support) values
+  ('CL', 'HE50', 'Horas extraordinarias (recargo 50 %)', 'hours', 'overtime', false),
+  ('CL', 'HE100', 'Horas extraordinarias en día festivo', 'hours', 'overtime', true),
+  ('CL', 'FER', 'Feriado legal', 'days', 'vacation', false),
+  ('CL', 'FERP', 'Feriado progresivo', 'days', 'vacation', false),
+  ('CL', 'LM', 'Licencia médica', 'days', 'medical_leave', true),
+  ('CL', 'AUSI', 'Ausencia injustificada', 'days', 'absence', false),
+  ('CL', 'PSG', 'Permiso sin goce de remuneraciones', 'days', 'absence', true),
+  ('CL', 'PCG', 'Permiso con goce (nacimiento, fallecimiento, matrimonio)', 'days', 'absence', true)
+on conflict (country_code, code) do nothing;
+
+insert into public.country_rules (country_code, rule_key, value_numeric, value_text, unit, description, legal_reference, procedure_keywords, valid_from, valid_to) values
+  ('CL', 'max_overtime_hours_per_day', 2, null, 'hours', 'Máximo de horas extraordinarias por día', 'Código del Trabajo, art. 31 (referencial)', array['2 horas extraordinarias', 'dos horas extraordinarias', '2 horas extra', 'dos horas extra']::text[], '2000-01-01', null),
+  ('CL', 'max_overtime_hours_per_week', 12, null, 'hours', 'Tope semanal de horas extraordinarias (2 h × 6 días, supuesto de diseño)', 'Supuesto derivado del art. 31 (referencial)', null, '2000-01-01', null),
+  ('CL', 'weekly_hours_limit', 44, null, 'hours', 'Jornada ordinaria máxima semanal', 'Ley 21.561, primera etapa (referencial)', array['44 horas']::text[], '2024-04-26', '2026-04-25'),
+  ('CL', 'weekly_hours_limit', 42, null, 'hours', 'Jornada ordinaria máxima semanal', 'Ley 21.561, segunda etapa (referencial)', array['42 horas']::text[], '2026-04-26', '2028-04-25'),
+  ('CL', 'weekly_hours_limit', 40, null, 'hours', 'Jornada ordinaria máxima semanal', 'Ley 21.561, etapa final (referencial)', array['40 horas']::text[], '2028-04-26', null),
+  ('CL', 'overtime_min_surcharge_pct', 50, null, 'percent', 'Recargo mínimo de las horas extraordinarias', 'Código del Trabajo, art. 32 (referencial)', array['50 %', '50%', 'cincuenta por ciento']::text[], '2000-01-01', null),
+  ('CL', 'annual_leave_business_days', 15, null, 'days', 'Feriado legal anual en días hábiles (más feriado progresivo)', 'Código del Trabajo, art. 67 (referencial)', array['15 días hábiles', 'quince días hábiles']::text[], '2000-01-01', null),
+  ('CL', 'vacation_business_days_only', 1, null, 'flag', 'El feriado legal se cuenta solo en días hábiles (lunes a viernes)', 'Código del Trabajo, art. 69 (referencial)', null, '2000-01-01', null),
+  ('CL', 'outlier_z_score', 3, null, 'z', 'Desviaciones estándar sobre el historial para marcar un valor atípico', null, null, '2000-01-01', null),
+  ('CL', 'outlier_min_history', 3, null, 'periods', 'Meses mínimos de historial para evaluar atípicos', null, null, '2000-01-01', null),
+  ('CL', 'file_name_pattern', null, '^NOV_[A-Z]{2}_[A-Z]{2}-[A-Z0-9]{2,6}_\d{4}-\d{2}\.(xlsx|xls|csv)$', 'regex', 'Patrón del nombre de archivo: NOV_<PAÍS>_<PLANTA>_<AAAA-MM>', null, null, '2000-01-01', null);
+
+insert into public.payroll_periods (country_code, period, status, cutoff_date) values
+  ('CL', '2026-07', 'closed', '2026-07-22'),
+  ('CL', '2026-08', 'closed', '2026-08-21'),
+  ('CL', '2026-09', 'open', '2026-10-15'),
+  ('CL', '2026-10', 'open', '2026-10-21')
+on conflict (country_code, period) do nothing;

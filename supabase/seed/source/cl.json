@@ -1,0 +1,45 @@
+{
+  "_comment": "Datos de referencia sintéticos y referenciales de Chile. Fuente única para el seed SQL y las pruebas. Deben ser validados por un especialista laboral antes de un uso real.",
+  "country": {
+    "code": "CL",
+    "name": "Chile",
+    "national_id_label": "RUT",
+    "national_id_validator": "rut_mod11",
+    "national_id_regex": null,
+    "timezone": "America/Santiago"
+  },
+  "sites": [
+    { "code": "CL-STG", "name": "Planta Santiago", "employees": 90 },
+    { "code": "CL-ANF", "name": "Planta Antofagasta", "employees": 60 },
+    { "code": "CL-CON", "name": "Planta Concepción", "employees": 50 }
+  ],
+  "concepts": [
+    { "code": "HE50", "name": "Horas extraordinarias (recargo 50 %)", "unit": "hours", "category": "overtime", "requires_support": false },
+    { "code": "HE100", "name": "Horas extraordinarias en día festivo", "unit": "hours", "category": "overtime", "requires_support": true },
+    { "code": "FER", "name": "Feriado legal", "unit": "days", "category": "vacation", "requires_support": false },
+    { "code": "FERP", "name": "Feriado progresivo", "unit": "days", "category": "vacation", "requires_support": false },
+    { "code": "LM", "name": "Licencia médica", "unit": "days", "category": "medical_leave", "requires_support": true },
+    { "code": "AUSI", "name": "Ausencia injustificada", "unit": "days", "category": "absence", "requires_support": false },
+    { "code": "PSG", "name": "Permiso sin goce de remuneraciones", "unit": "days", "category": "absence", "requires_support": true },
+    { "code": "PCG", "name": "Permiso con goce (nacimiento, fallecimiento, matrimonio)", "unit": "days", "category": "absence", "requires_support": true }
+  ],
+  "rules": [
+    { "rule_key": "max_overtime_hours_per_day", "value_numeric": 2, "unit": "hours", "description": "Máximo de horas extraordinarias por día", "legal_reference": "Código del Trabajo, art. 31 (referencial)", "procedure_keywords": ["2 horas extraordinarias", "dos horas extraordinarias", "2 horas extra", "dos horas extra"], "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "max_overtime_hours_per_week", "value_numeric": 12, "unit": "hours", "description": "Tope semanal de horas extraordinarias (2 h × 6 días, supuesto de diseño)", "legal_reference": "Supuesto derivado del art. 31 (referencial)", "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "weekly_hours_limit", "value_numeric": 44, "unit": "hours", "description": "Jornada ordinaria máxima semanal", "legal_reference": "Ley 21.561, primera etapa (referencial)", "procedure_keywords": ["44 horas"], "valid_from": "2024-04-26", "valid_to": "2026-04-25" },
+    { "rule_key": "weekly_hours_limit", "value_numeric": 42, "unit": "hours", "description": "Jornada ordinaria máxima semanal", "legal_reference": "Ley 21.561, segunda etapa (referencial)", "procedure_keywords": ["42 horas"], "valid_from": "2026-04-26", "valid_to": "2028-04-25" },
+    { "rule_key": "weekly_hours_limit", "value_numeric": 40, "unit": "hours", "description": "Jornada ordinaria máxima semanal", "legal_reference": "Ley 21.561, etapa final (referencial)", "procedure_keywords": ["40 horas"], "valid_from": "2028-04-26", "valid_to": null },
+    { "rule_key": "overtime_min_surcharge_pct", "value_numeric": 50, "unit": "percent", "description": "Recargo mínimo de las horas extraordinarias", "legal_reference": "Código del Trabajo, art. 32 (referencial)", "procedure_keywords": ["50 %", "50%", "cincuenta por ciento"], "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "annual_leave_business_days", "value_numeric": 15, "unit": "days", "description": "Feriado legal anual en días hábiles (más feriado progresivo)", "legal_reference": "Código del Trabajo, art. 67 (referencial)", "procedure_keywords": ["15 días hábiles", "quince días hábiles"], "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "vacation_business_days_only", "value_numeric": 1, "unit": "flag", "description": "El feriado legal se cuenta solo en días hábiles (lunes a viernes)", "legal_reference": "Código del Trabajo, art. 69 (referencial)", "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "outlier_z_score", "value_numeric": 3, "unit": "z", "description": "Desviaciones estándar sobre el historial para marcar un valor atípico", "legal_reference": null, "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "outlier_min_history", "value_numeric": 3, "unit": "periods", "description": "Meses mínimos de historial para evaluar atípicos", "legal_reference": null, "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "file_name_pattern", "value_text": "^NOV_[A-Z]{2}_[A-Z]{2}-[A-Z0-9]{2,6}_\\d{4}-\\d{2}\\.(xlsx|xls|csv)$", "unit": "regex", "description": "Patrón del nombre de archivo: NOV_<PAÍS>_<PLANTA>_<AAAA-MM>", "legal_reference": null, "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null }
+  ],
+  "periods": [
+    { "period": "2026-07", "status": "closed", "cutoff_date": "2026-07-22" },
+    { "period": "2026-08", "status": "closed", "cutoff_date": "2026-08-21" },
+    { "period": "2026-09", "status": "open", "cutoff_date": "2026-10-15" },
+    { "period": "2026-10", "status": "open", "cutoff_date": "2026-10-21" }
+  ]
+}

@@ -1,0 +1,8602 @@
+[
+ {
+  "employeeCode": "CL-000001",
+  "nationalId": "18663919-7",
+  "firstName": "Sebastián",
+  "lastName": "Ficticio Muestra",
+  "siteCode": "CL-STG",
+  "hireDate": "2022-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 2
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000002",
+  "nationalId": "16529234-0",
+  "firstName": "Javiera",
+  "lastName": "Prueba Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2019-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 15,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000003",
+  "nationalId": "18721455-6",
+  "firstName": "Florencia",
+  "lastName": "Bosquejo Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2018-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000004",
+  "nationalId": "13944405-1",
+  "firstName": "Isidora",
+  "lastName": "Prueba Sintético",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000005",
+  "nationalId": "18827131-6",
+  "firstName": "Joaquín",
+  "lastName": "Bosquejo Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2023-06-01",
+  "terminationDate": "2026-09-10",
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000006",
+  "nationalId": "13553661-K",
+  "firstName": "Agustín",
+  "lastName": "Muestra Bosquejo",
+  "siteCode": "CL-STG",
+  "hireDate": "2026-09-20",
+  "terminationDate": null,
+  "leaveBalanceDays": 8,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000007",
+  "nationalId": "11881397-9",
+  "firstName": "Gaspar",
+  "lastName": "Ejemplo Bosquejo",
+  "siteCode": "CL-STG",
+  "hireDate": "2021-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 8,
+  "weeklyHours": 45,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000008",
+  "nationalId": "11900239-7",
+  "firstName": "Javiera",
+  "lastName": "Ensayo Modelo",
+  "siteCode": "CL-STG",
+  "hireDate": "2009-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 2,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 16
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 13
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000009",
+  "nationalId": "22189943-1",
+  "firstName": "Martina",
+  "lastName": "Sintético Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2017-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 2
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000010",
+  "nationalId": "15705571-2",
+  "firstName": "Ignacio",
+  "lastName": "Ensayo Muestra",
+  "siteCode": "CL-STG",
+  "hireDate": "2022-04-01",
+  "terminationDate": "2025-12-31",
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000011",
+  "nationalId": "22480194-7",
+  "firstName": "Diego",
+  "lastName": "Muestra Borrador",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 21,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000012",
+  "nationalId": "23721753-5",
+  "firstName": "Matías",
+  "lastName": "Plantilla Simulado",
+  "siteCode": "CL-STG",
+  "hireDate": "2010-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 15,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000013",
+  "nationalId": "20480790-6",
+  "firstName": "Valentina",
+  "lastName": "Ensayo Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2021-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000014",
+  "nationalId": "21157322-8",
+  "firstName": "Gaspar",
+  "lastName": "Muestra Simulado",
+  "siteCode": "CL-STG",
+  "hireDate": "2022-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 14,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000015",
+  "nationalId": "17979923-5",
+  "firstName": "Isidora",
+  "lastName": "Ficticio Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000016",
+  "nationalId": "8864984-2",
+  "firstName": "Cristóbal",
+  "lastName": "Prueba Borrador",
+  "siteCode": "CL-STG",
+  "hireDate": "2014-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000017",
+  "nationalId": "19813571-2",
+  "firstName": "Diego",
+  "lastName": "Maqueta Sintético",
+  "siteCode": "CL-STG",
+  "hireDate": "2023-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 8,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000018",
+  "nationalId": "8090959-4",
+  "firstName": "Amanda",
+  "lastName": "Bosquejo Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000019",
+  "nationalId": "18685386-5",
+  "firstName": "Constanza",
+  "lastName": "Bosquejo Borrador",
+  "siteCode": "CL-STG",
+  "hireDate": "2022-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 15
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000020",
+  "nationalId": "11328529-K",
+  "firstName": "Catalina",
+  "lastName": "Ejemplo Muestra",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000021",
+  "nationalId": "18792292-5",
+  "firstName": "Gaspar",
+  "lastName": "Simulado Prueba",
+  "siteCode": "CL-STG",
+  "hireDate": "2021-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000022",
+  "nationalId": "19316886-8",
+  "firstName": "Felipe",
+  "lastName": "Ficticio Borrador",
+  "siteCode": "CL-STG",
+  "hireDate": "2023-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000023",
+  "nationalId": "17529125-3",
+  "firstName": "Emilia",
+  "lastName": "Modelo Borrador",
+  "siteCode": "CL-STG",
+  "hireDate": "2024-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000024",
+  "nationalId": "20011347-0",
+  "firstName": "Trinidad",
+  "lastName": "Ejemplo Bosquejo",
+  "siteCode": "CL-STG",
+  "hireDate": "2019-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 22,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000025",
+  "nationalId": "22633698-2",
+  "firstName": "Benjamín",
+  "lastName": "Prueba Muestra",
+  "siteCode": "CL-STG",
+  "hireDate": "2014-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000026",
+  "nationalId": "19825382-0",
+  "firstName": "Tomás",
+  "lastName": "Muestra Bosquejo",
+  "siteCode": "CL-STG",
+  "hireDate": "2016-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 2
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000027",
+  "nationalId": "12345045-0",
+  "firstName": "Felipe",
+  "lastName": "Maqueta Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000028",
+  "nationalId": "20531576-4",
+  "firstName": "Amanda",
+  "lastName": "Ejemplo Ejemplo",
+  "siteCode": "CL-STG",
+  "hireDate": "2024-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 1
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000029",
+  "nationalId": "18944482-6",
+  "firstName": "Florencia",
+  "lastName": "Ficticio Prueba",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 15
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000030",
+  "nationalId": "23966638-8",
+  "firstName": "Diego",
+  "lastName": "Prueba Ejemplo",
+  "siteCode": "CL-STG",
+  "hireDate": "2011-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 21,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000031",
+  "nationalId": "13295929-3",
+  "firstName": "Felipe",
+  "lastName": "Sintético Modelo",
+  "siteCode": "CL-STG",
+  "hireDate": "2022-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 22,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 12
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000032",
+  "nationalId": "10666269-K",
+  "firstName": "Cristóbal",
+  "lastName": "Plantilla Borrador",
+  "siteCode": "CL-STG",
+  "hireDate": "2013-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000033",
+  "nationalId": "12411621-K",
+  "firstName": "Agustín",
+  "lastName": "Simulado Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2017-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000034",
+  "nationalId": "10315231-3",
+  "firstName": "Sebastián",
+  "lastName": "Maqueta Ejemplo",
+  "siteCode": "CL-STG",
+  "hireDate": "2016-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 1
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000035",
+  "nationalId": "25021411-1",
+  "firstName": "Josefa",
+  "lastName": "Borrador Ejemplo",
+  "siteCode": "CL-STG",
+  "hireDate": "2016-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000036",
+  "nationalId": "10363551-9",
+  "firstName": "Vicente",
+  "lastName": "Prueba Plantilla",
+  "siteCode": "CL-STG",
+  "hireDate": "2022-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 13
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000037",
+  "nationalId": "9963140-6",
+  "firstName": "Bastián",
+  "lastName": "Muestra Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2014-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000038",
+  "nationalId": "14430348-2",
+  "firstName": "Josefa",
+  "lastName": "Bosquejo Modelo",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000039",
+  "nationalId": "24103385-6",
+  "firstName": "Agustín",
+  "lastName": "Modelo Muestra",
+  "siteCode": "CL-STG",
+  "hireDate": "2014-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000040",
+  "nationalId": "14853948-0",
+  "firstName": "Isidora",
+  "lastName": "Simulado Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 13
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000041",
+  "nationalId": "14353214-3",
+  "firstName": "Florencia",
+  "lastName": "Ensayo Modelo",
+  "siteCode": "CL-STG",
+  "hireDate": "2024-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000042",
+  "nationalId": "11388399-5",
+  "firstName": "Joaquín",
+  "lastName": "Muestra Ejemplo",
+  "siteCode": "CL-STG",
+  "hireDate": "2010-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000043",
+  "nationalId": "25558536-3",
+  "firstName": "Emilia",
+  "lastName": "Ensayo Simulado",
+  "siteCode": "CL-STG",
+  "hireDate": "2018-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 15,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000044",
+  "nationalId": "24306326-4",
+  "firstName": "Bastián",
+  "lastName": "Prueba Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2016-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 10,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000045",
+  "nationalId": "24641826-8",
+  "firstName": "Martina",
+  "lastName": "Ficticio Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000046",
+  "nationalId": "24152524-4",
+  "firstName": "Matías",
+  "lastName": "Prueba Bosquejo",
+  "siteCode": "CL-STG",
+  "hireDate": "2012-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000047",
+  "nationalId": "15899524-7",
+  "firstName": "Ignacio",
+  "lastName": "Muestra Plantilla",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000048",
+  "nationalId": "24466482-2",
+  "firstName": "Vicente",
+  "lastName": "Muestra Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2018-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000049",
+  "nationalId": "25215506-6",
+  "firstName": "Amanda",
+  "lastName": "Bosquejo Prueba",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 21,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000050",
+  "nationalId": "20789003-0",
+  "firstName": "Martina",
+  "lastName": "Muestra Borrador",
+  "siteCode": "CL-STG",
+  "hireDate": "2023-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000051",
+  "nationalId": "13952228-1",
+  "firstName": "Lucas",
+  "lastName": "Ejemplo Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000052",
+  "nationalId": "17793674-K",
+  "firstName": "Diego",
+  "lastName": "Ejemplo Plantilla",
+  "siteCode": "CL-STG",
+  "hireDate": "2024-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 21,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000053",
+  "nationalId": "14958574-5",
+  "firstName": "Camila",
+  "lastName": "Plantilla Ejemplo",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 15,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000054",
+  "nationalId": "13761919-9",
+  "firstName": "Matías",
+  "lastName": "Prueba Bosquejo",
+  "siteCode": "CL-STG",
+  "hireDate": "2014-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 15,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000055",
+  "nationalId": "18088181-6",
+  "firstName": "Emilia",
+  "lastName": "Muestra Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2009-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000056",
+  "nationalId": "10789446-2",
+  "firstName": "Benjamín",
+  "lastName": "Ficticio Plantilla",
+  "siteCode": "CL-STG",
+  "hireDate": "2014-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000057",
+  "nationalId": "12510751-6",
+  "firstName": "Lucas",
+  "lastName": "Maqueta Ejemplo",
+  "siteCode": "CL-STG",
+  "hireDate": "2023-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000058",
+  "nationalId": "18415375-0",
+  "firstName": "Catalina",
+  "lastName": "Prueba Bosquejo",
+  "siteCode": "CL-STG",
+  "hireDate": "2016-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000059",
+  "nationalId": "18322265-1",
+  "firstName": "Valentina",
+  "lastName": "Ficticio Plantilla",
+  "siteCode": "CL-STG",
+  "hireDate": "2012-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000060",
+  "nationalId": "17239214-8",
+  "firstName": "Matías",
+  "lastName": "Borrador Ejemplo",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000061",
+  "nationalId": "24286490-5",
+  "firstName": "Lucas",
+  "lastName": "Plantilla Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2009-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 18
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000062",
+  "nationalId": "9161785-4",
+  "firstName": "Benjamín",
+  "lastName": "Ensayo Simulado",
+  "siteCode": "CL-STG",
+  "hireDate": "2022-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000063",
+  "nationalId": "22938479-1",
+  "firstName": "Nicolás",
+  "lastName": "Modelo Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2024-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 12
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000064",
+  "nationalId": "19863764-5",
+  "firstName": "Cristóbal",
+  "lastName": "Ensayo Sintético",
+  "siteCode": "CL-STG",
+  "hireDate": "2010-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000065",
+  "nationalId": "25695137-1",
+  "firstName": "Josefa",
+  "lastName": "Modelo Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2017-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000066",
+  "nationalId": "18708881-K",
+  "firstName": "Felipe",
+  "lastName": "Plantilla Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 22,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000067",
+  "nationalId": "23639464-6",
+  "firstName": "Antonia",
+  "lastName": "Ejemplo Sintético",
+  "siteCode": "CL-STG",
+  "hireDate": "2023-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000068",
+  "nationalId": "17614735-0",
+  "firstName": "Gaspar",
+  "lastName": "Bosquejo Muestra",
+  "siteCode": "CL-STG",
+  "hireDate": "2011-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000069",
+  "nationalId": "24659492-9",
+  "firstName": "Camila",
+  "lastName": "Prueba Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2019-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000070",
+  "nationalId": "23146541-3",
+  "firstName": "Renata",
+  "lastName": "Plantilla Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2013-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000071",
+  "nationalId": "8520977-9",
+  "firstName": "Cristóbal",
+  "lastName": "Borrador Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2022-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 22,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000072",
+  "nationalId": "22266513-2",
+  "firstName": "Lucas",
+  "lastName": "Maqueta Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2015-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 8,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000073",
+  "nationalId": "20282472-2",
+  "firstName": "Gaspar",
+  "lastName": "Borrador Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2019-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 10,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 12
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000074",
+  "nationalId": "16135894-0",
+  "firstName": "Benjamín",
+  "lastName": "Sintético Simulado",
+  "siteCode": "CL-STG",
+  "hireDate": "2024-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000075",
+  "nationalId": "25770876-4",
+  "firstName": "Joaquín",
+  "lastName": "Muestra Sintético",
+  "siteCode": "CL-STG",
+  "hireDate": "2023-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000076",
+  "nationalId": "24705294-1",
+  "firstName": "Matías",
+  "lastName": "Prueba Prueba",
+  "siteCode": "CL-STG",
+  "hireDate": "2019-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000077",
+  "nationalId": "19705766-1",
+  "firstName": "Trinidad",
+  "lastName": "Muestra Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2008-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000078",
+  "nationalId": "15346282-8",
+  "firstName": "Martina",
+  "lastName": "Sintético Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2009-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 10,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000079",
+  "nationalId": "19709417-6",
+  "firstName": "Joaquín",
+  "lastName": "Modelo Modelo",
+  "siteCode": "CL-STG",
+  "hireDate": "2010-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000080",
+  "nationalId": "11905467-2",
+  "firstName": "Cristóbal",
+  "lastName": "Sintético Plantilla",
+  "siteCode": "CL-STG",
+  "hireDate": "2012-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 21,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000081",
+  "nationalId": "20859560-1",
+  "firstName": "Felipe",
+  "lastName": "Modelo Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2019-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000082",
+  "nationalId": "8576864-6",
+  "firstName": "Emilia",
+  "lastName": "Sintético Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2010-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 18
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000083",
+  "nationalId": "12073905-0",
+  "firstName": "Trinidad",
+  "lastName": "Ficticio Ficticio",
+  "siteCode": "CL-STG",
+  "hireDate": "2008-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000084",
+  "nationalId": "8372870-1",
+  "firstName": "Cristóbal",
+  "lastName": "Plantilla Ensayo",
+  "siteCode": "CL-STG",
+  "hireDate": "2016-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000085",
+  "nationalId": "24865241-1",
+  "firstName": "Emilia",
+  "lastName": "Modelo Simulado",
+  "siteCode": "CL-STG",
+  "hireDate": "2023-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 8,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000086",
+  "nationalId": "10161484-0",
+  "firstName": "Javiera",
+  "lastName": "Ejemplo Modelo",
+  "siteCode": "CL-STG",
+  "hireDate": "2020-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 13,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000087",
+  "nationalId": "19099425-2",
+  "firstName": "Valentina",
+  "lastName": "Ficticio Maqueta",
+  "siteCode": "CL-STG",
+  "hireDate": "2024-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 14,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000088",
+  "nationalId": "19933590-1",
+  "firstName": "Diego",
+  "lastName": "Maqueta Sintético",
+  "siteCode": "CL-STG",
+  "hireDate": "2021-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000089",
+  "nationalId": "10958556-4",
+  "firstName": "Nicolás",
+  "lastName": "Ejemplo Muestra",
+  "siteCode": "CL-STG",
+  "hireDate": "2024-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000090",
+  "nationalId": "15742253-7",
+  "firstName": "Gaspar",
+  "lastName": "Ejemplo Muestra",
+  "siteCode": "CL-STG",
+  "hireDate": "2009-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000091",
+  "nationalId": "18294438-6",
+  "firstName": "Vicente",
+  "lastName": "Bosquejo Plantilla",
+  "siteCode": "CL-ANF",
+  "hireDate": "2018-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000092",
+  "nationalId": "8259971-1",
+  "firstName": "Joaquín",
+  "lastName": "Sintético Ejemplo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2008-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 13,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000093",
+  "nationalId": "10906165-4",
+  "firstName": "Camila",
+  "lastName": "Ficticio Ensayo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2011-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 13
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000094",
+  "nationalId": "8546009-9",
+  "firstName": "Emilia",
+  "lastName": "Maqueta Modelo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2017-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000095",
+  "nationalId": "23217515-K",
+  "firstName": "Ignacio",
+  "lastName": "Muestra Ejemplo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2015-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 21,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000096",
+  "nationalId": "14542263-9",
+  "firstName": "Bastián",
+  "lastName": "Bosquejo Ejemplo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2013-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000097",
+  "nationalId": "17002286-6",
+  "firstName": "Trinidad",
+  "lastName": "Bosquejo Sintético",
+  "siteCode": "CL-ANF",
+  "hireDate": "2015-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000098",
+  "nationalId": "24291762-6",
+  "firstName": "Agustín",
+  "lastName": "Sintético Sintético",
+  "siteCode": "CL-ANF",
+  "hireDate": "2023-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 16
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000099",
+  "nationalId": "9448547-9",
+  "firstName": "Constanza",
+  "lastName": "Maqueta Borrador",
+  "siteCode": "CL-ANF",
+  "hireDate": "2020-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000100",
+  "nationalId": "20097296-1",
+  "firstName": "Sebastián",
+  "lastName": "Ensayo Simulado",
+  "siteCode": "CL-ANF",
+  "hireDate": "2017-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 8,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000101",
+  "nationalId": "14225494-8",
+  "firstName": "Florencia",
+  "lastName": "Borrador Simulado",
+  "siteCode": "CL-ANF",
+  "hireDate": "2018-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 14,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000102",
+  "nationalId": "20389971-8",
+  "firstName": "Sebastián",
+  "lastName": "Maqueta Simulado",
+  "siteCode": "CL-ANF",
+  "hireDate": "2012-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000103",
+  "nationalId": "11573284-6",
+  "firstName": "Lucas",
+  "lastName": "Simulado Bosquejo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2018-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000104",
+  "nationalId": "14992714-K",
+  "firstName": "Fernanda",
+  "lastName": "Bosquejo Plantilla",
+  "siteCode": "CL-ANF",
+  "hireDate": "2020-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000105",
+  "nationalId": "11423577-6",
+  "firstName": "Bastián",
+  "lastName": "Bosquejo Bosquejo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2017-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000106",
+  "nationalId": "13790198-6",
+  "firstName": "Trinidad",
+  "lastName": "Maqueta Ensayo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2016-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000107",
+  "nationalId": "18170461-6",
+  "firstName": "Bastián",
+  "lastName": "Maqueta Muestra",
+  "siteCode": "CL-ANF",
+  "hireDate": "2016-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000108",
+  "nationalId": "14584746-K",
+  "firstName": "Fernanda",
+  "lastName": "Sintético Simulado",
+  "siteCode": "CL-ANF",
+  "hireDate": "2023-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000109",
+  "nationalId": "16669176-1",
+  "firstName": "Martina",
+  "lastName": "Ficticio Borrador",
+  "siteCode": "CL-ANF",
+  "hireDate": "2013-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 15,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000110",
+  "nationalId": "16560963-8",
+  "firstName": "Matías",
+  "lastName": "Ensayo Ensayo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2011-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 21,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000111",
+  "nationalId": "22589231-8",
+  "firstName": "Nicolás",
+  "lastName": "Prueba Maqueta",
+  "siteCode": "CL-ANF",
+  "hireDate": "2021-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000112",
+  "nationalId": "17303867-4",
+  "firstName": "Ignacio",
+  "lastName": "Sintético Plantilla",
+  "siteCode": "CL-ANF",
+  "hireDate": "2010-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 13,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000113",
+  "nationalId": "12143826-7",
+  "firstName": "Joaquín",
+  "lastName": "Bosquejo Maqueta",
+  "siteCode": "CL-ANF",
+  "hireDate": "2009-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 15
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 12
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000114",
+  "nationalId": "23454081-5",
+  "firstName": "Constanza",
+  "lastName": "Ficticio Plantilla",
+  "siteCode": "CL-ANF",
+  "hireDate": "2008-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 12
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000115",
+  "nationalId": "24704455-8",
+  "firstName": "Gaspar",
+  "lastName": "Bosquejo Plantilla",
+  "siteCode": "CL-ANF",
+  "hireDate": "2024-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000116",
+  "nationalId": "24310323-1",
+  "firstName": "Amanda",
+  "lastName": "Ensayo Sintético",
+  "siteCode": "CL-ANF",
+  "hireDate": "2017-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000117",
+  "nationalId": "16090201-9",
+  "firstName": "Agustín",
+  "lastName": "Simulado Ejemplo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2017-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000118",
+  "nationalId": "25459752-K",
+  "firstName": "Diego",
+  "lastName": "Plantilla Ensayo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2010-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000119",
+  "nationalId": "18788153-6",
+  "firstName": "Valentina",
+  "lastName": "Ficticio Simulado",
+  "siteCode": "CL-ANF",
+  "hireDate": "2018-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 1
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000120",
+  "nationalId": "13140140-K",
+  "firstName": "Javiera",
+  "lastName": "Ensayo Muestra",
+  "siteCode": "CL-ANF",
+  "hireDate": "2012-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000121",
+  "nationalId": "16843477-4",
+  "firstName": "Fernanda",
+  "lastName": "Ensayo Modelo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2009-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000122",
+  "nationalId": "15963008-0",
+  "firstName": "Antonia",
+  "lastName": "Plantilla Borrador",
+  "siteCode": "CL-ANF",
+  "hireDate": "2018-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 10,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000123",
+  "nationalId": "10872955-4",
+  "firstName": "Benjamín",
+  "lastName": "Maqueta Maqueta",
+  "siteCode": "CL-ANF",
+  "hireDate": "2014-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000124",
+  "nationalId": "15364440-3",
+  "firstName": "Josefa",
+  "lastName": "Muestra Maqueta",
+  "siteCode": "CL-ANF",
+  "hireDate": "2020-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 24,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000125",
+  "nationalId": "9410765-2",
+  "firstName": "Tomás",
+  "lastName": "Prueba Maqueta",
+  "siteCode": "CL-ANF",
+  "hireDate": "2014-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000126",
+  "nationalId": "9715374-4",
+  "firstName": "Isidora",
+  "lastName": "Simulado Ejemplo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2012-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000127",
+  "nationalId": "20935421-7",
+  "firstName": "Sebastián",
+  "lastName": "Sintético Simulado",
+  "siteCode": "CL-ANF",
+  "hireDate": "2023-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 10,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000128",
+  "nationalId": "24630039-9",
+  "firstName": "Camila",
+  "lastName": "Sintético Plantilla",
+  "siteCode": "CL-ANF",
+  "hireDate": "2024-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000129",
+  "nationalId": "24763684-6",
+  "firstName": "Ignacio",
+  "lastName": "Ensayo Bosquejo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2022-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000130",
+  "nationalId": "23854412-2",
+  "firstName": "Benjamín",
+  "lastName": "Ensayo Bosquejo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2021-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000131",
+  "nationalId": "14320071-K",
+  "firstName": "Tomás",
+  "lastName": "Muestra Bosquejo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2021-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000132",
+  "nationalId": "16351123-1",
+  "firstName": "Amanda",
+  "lastName": "Muestra Borrador",
+  "siteCode": "CL-ANF",
+  "hireDate": "2011-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000133",
+  "nationalId": "22552635-4",
+  "firstName": "Bastián",
+  "lastName": "Ensayo Simulado",
+  "siteCode": "CL-ANF",
+  "hireDate": "2011-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000134",
+  "nationalId": "14070573-K",
+  "firstName": "Felipe",
+  "lastName": "Maqueta Ejemplo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2010-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000135",
+  "nationalId": "19878158-4",
+  "firstName": "Fernanda",
+  "lastName": "Ensayo Plantilla",
+  "siteCode": "CL-ANF",
+  "hireDate": "2018-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000136",
+  "nationalId": "19080318-K",
+  "firstName": "Benjamín",
+  "lastName": "Sintético Simulado",
+  "siteCode": "CL-ANF",
+  "hireDate": "2020-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000137",
+  "nationalId": "14010453-1",
+  "firstName": "Camila",
+  "lastName": "Simulado Ensayo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2017-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 16
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000138",
+  "nationalId": "12483306-K",
+  "firstName": "Lucas",
+  "lastName": "Bosquejo Muestra",
+  "siteCode": "CL-ANF",
+  "hireDate": "2008-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000139",
+  "nationalId": "23060450-9",
+  "firstName": "Lucas",
+  "lastName": "Ficticio Ensayo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2014-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000140",
+  "nationalId": "20543321-K",
+  "firstName": "Antonia",
+  "lastName": "Ficticio Borrador",
+  "siteCode": "CL-ANF",
+  "hireDate": "2008-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 22,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000141",
+  "nationalId": "9356752-8",
+  "firstName": "Agustín",
+  "lastName": "Prueba Modelo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2016-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 15,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000142",
+  "nationalId": "14795383-6",
+  "firstName": "Isidora",
+  "lastName": "Sintético Ensayo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2013-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000143",
+  "nationalId": "20786051-4",
+  "firstName": "Vicente",
+  "lastName": "Modelo Borrador",
+  "siteCode": "CL-ANF",
+  "hireDate": "2018-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000144",
+  "nationalId": "17269013-0",
+  "firstName": "Sebastián",
+  "lastName": "Muestra Ejemplo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2009-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 11,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000145",
+  "nationalId": "11084261-9",
+  "firstName": "Bastián",
+  "lastName": "Maqueta Ejemplo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2010-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 13,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000146",
+  "nationalId": "9127819-7",
+  "firstName": "Sebastián",
+  "lastName": "Borrador Plantilla",
+  "siteCode": "CL-ANF",
+  "hireDate": "2019-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000147",
+  "nationalId": "12592162-0",
+  "firstName": "Cristóbal",
+  "lastName": "Modelo Ensayo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2020-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 13,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000148",
+  "nationalId": "24792440-K",
+  "firstName": "Camila",
+  "lastName": "Ejemplo Bosquejo",
+  "siteCode": "CL-ANF",
+  "hireDate": "2008-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000149",
+  "nationalId": "8815116-K",
+  "firstName": "Isidora",
+  "lastName": "Ejemplo Sintético",
+  "siteCode": "CL-ANF",
+  "hireDate": "2009-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000150",
+  "nationalId": "11885885-9",
+  "firstName": "Catalina",
+  "lastName": "Modelo Prueba",
+  "siteCode": "CL-ANF",
+  "hireDate": "2018-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000151",
+  "nationalId": "16509269-4",
+  "firstName": "Felipe",
+  "lastName": "Bosquejo Ficticio",
+  "siteCode": "CL-CON",
+  "hireDate": "2013-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000152",
+  "nationalId": "18257451-1",
+  "firstName": "Catalina",
+  "lastName": "Ejemplo Muestra",
+  "siteCode": "CL-CON",
+  "hireDate": "2015-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000153",
+  "nationalId": "25642763-K",
+  "firstName": "Ignacio",
+  "lastName": "Simulado Bosquejo",
+  "siteCode": "CL-CON",
+  "hireDate": "2021-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 22,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 1
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000154",
+  "nationalId": "8493752-5",
+  "firstName": "Diego",
+  "lastName": "Plantilla Muestra",
+  "siteCode": "CL-CON",
+  "hireDate": "2020-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 1
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000155",
+  "nationalId": "15927475-6",
+  "firstName": "Fernanda",
+  "lastName": "Plantilla Simulado",
+  "siteCode": "CL-CON",
+  "hireDate": "2012-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000156",
+  "nationalId": "19884432-2",
+  "firstName": "Agustín",
+  "lastName": "Simulado Sintético",
+  "siteCode": "CL-CON",
+  "hireDate": "2014-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 8,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000157",
+  "nationalId": "22688606-0",
+  "firstName": "Valentina",
+  "lastName": "Ensayo Prueba",
+  "siteCode": "CL-CON",
+  "hireDate": "2023-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000158",
+  "nationalId": "18938239-1",
+  "firstName": "Amanda",
+  "lastName": "Borrador Prueba",
+  "siteCode": "CL-CON",
+  "hireDate": "2022-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000159",
+  "nationalId": "9159304-1",
+  "firstName": "Fernanda",
+  "lastName": "Ensayo Borrador",
+  "siteCode": "CL-CON",
+  "hireDate": "2024-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 14,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 0
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000160",
+  "nationalId": "12127036-6",
+  "firstName": "Benjamín",
+  "lastName": "Muestra Ejemplo",
+  "siteCode": "CL-CON",
+  "hireDate": "2017-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 10,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000161",
+  "nationalId": "14458674-3",
+  "firstName": "Joaquín",
+  "lastName": "Simulado Ejemplo",
+  "siteCode": "CL-CON",
+  "hireDate": "2016-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000162",
+  "nationalId": "17234793-2",
+  "firstName": "Vicente",
+  "lastName": "Maqueta Prueba",
+  "siteCode": "CL-CON",
+  "hireDate": "2018-12-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000163",
+  "nationalId": "21383775-3",
+  "firstName": "Tomás",
+  "lastName": "Plantilla Prueba",
+  "siteCode": "CL-CON",
+  "hireDate": "2020-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000164",
+  "nationalId": "17659020-3",
+  "firstName": "Florencia",
+  "lastName": "Plantilla Borrador",
+  "siteCode": "CL-CON",
+  "hireDate": "2015-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000165",
+  "nationalId": "23137599-6",
+  "firstName": "Fernanda",
+  "lastName": "Simulado Sintético",
+  "siteCode": "CL-CON",
+  "hireDate": "2021-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000166",
+  "nationalId": "23473808-9",
+  "firstName": "Fernanda",
+  "lastName": "Simulado Prueba",
+  "siteCode": "CL-CON",
+  "hireDate": "2016-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 9,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000167",
+  "nationalId": "10926623-K",
+  "firstName": "Ignacio",
+  "lastName": "Muestra Prueba",
+  "siteCode": "CL-CON",
+  "hireDate": "2015-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 18
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000168",
+  "nationalId": "25914707-7",
+  "firstName": "Valentina",
+  "lastName": "Simulado Bosquejo",
+  "siteCode": "CL-CON",
+  "hireDate": "2015-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 17,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 12
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000169",
+  "nationalId": "9810885-8",
+  "firstName": "Catalina",
+  "lastName": "Modelo Borrador",
+  "siteCode": "CL-CON",
+  "hireDate": "2009-07-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000170",
+  "nationalId": "19357654-0",
+  "firstName": "Florencia",
+  "lastName": "Plantilla Maqueta",
+  "siteCode": "CL-CON",
+  "hireDate": "2018-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 4
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000171",
+  "nationalId": "22563429-7",
+  "firstName": "Constanza",
+  "lastName": "Ejemplo Bosquejo",
+  "siteCode": "CL-CON",
+  "hireDate": "2022-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 13,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000172",
+  "nationalId": "9117844-3",
+  "firstName": "Isidora",
+  "lastName": "Maqueta Maqueta",
+  "siteCode": "CL-CON",
+  "hireDate": "2008-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 14
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000173",
+  "nationalId": "25902775-6",
+  "firstName": "Sebastián",
+  "lastName": "Ficticio Simulado",
+  "siteCode": "CL-CON",
+  "hireDate": "2022-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 16
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000174",
+  "nationalId": "9145924-8",
+  "firstName": "Diego",
+  "lastName": "Modelo Sintético",
+  "siteCode": "CL-CON",
+  "hireDate": "2012-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000175",
+  "nationalId": "14662552-5",
+  "firstName": "Javiera",
+  "lastName": "Maqueta Ejemplo",
+  "siteCode": "CL-CON",
+  "hireDate": "2020-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 10,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000176",
+  "nationalId": "15865602-7",
+  "firstName": "Benjamín",
+  "lastName": "Ejemplo Ejemplo",
+  "siteCode": "CL-CON",
+  "hireDate": "2011-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 8,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000177",
+  "nationalId": "14395728-4",
+  "firstName": "Valentina",
+  "lastName": "Ficticio Muestra",
+  "siteCode": "CL-CON",
+  "hireDate": "2018-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 23,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 2
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000178",
+  "nationalId": "19105463-6",
+  "firstName": "Gaspar",
+  "lastName": "Muestra Sintético",
+  "siteCode": "CL-CON",
+  "hireDate": "2021-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000179",
+  "nationalId": "21088711-3",
+  "firstName": "Catalina",
+  "lastName": "Maqueta Bosquejo",
+  "siteCode": "CL-CON",
+  "hireDate": "2012-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000180",
+  "nationalId": "8222066-6",
+  "firstName": "Javiera",
+  "lastName": "Muestra Plantilla",
+  "siteCode": "CL-CON",
+  "hireDate": "2017-05-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 12
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000181",
+  "nationalId": "14707410-7",
+  "firstName": "Agustín",
+  "lastName": "Plantilla Ejemplo",
+  "siteCode": "CL-CON",
+  "hireDate": "2023-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 0
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000182",
+  "nationalId": "11608160-1",
+  "firstName": "Tomás",
+  "lastName": "Sintético Plantilla",
+  "siteCode": "CL-CON",
+  "hireDate": "2016-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000183",
+  "nationalId": "12531697-2",
+  "firstName": "Fernanda",
+  "lastName": "Bosquejo Maqueta",
+  "siteCode": "CL-CON",
+  "hireDate": "2023-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000184",
+  "nationalId": "21211416-2",
+  "firstName": "Javiera",
+  "lastName": "Plantilla Maqueta",
+  "siteCode": "CL-CON",
+  "hireDate": "2020-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000185",
+  "nationalId": "11905721-3",
+  "firstName": "Antonia",
+  "lastName": "Bosquejo Prueba",
+  "siteCode": "CL-CON",
+  "hireDate": "2022-01-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 16,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 9
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000186",
+  "nationalId": "16852629-6",
+  "firstName": "Cristóbal",
+  "lastName": "Ensayo Ejemplo",
+  "siteCode": "CL-CON",
+  "hireDate": "2014-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 20,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000187",
+  "nationalId": "8885364-4",
+  "firstName": "Renata",
+  "lastName": "Ficticio Maqueta",
+  "siteCode": "CL-CON",
+  "hireDate": "2013-11-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 13,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000188",
+  "nationalId": "13111600-4",
+  "firstName": "Gaspar",
+  "lastName": "Modelo Muestra",
+  "siteCode": "CL-CON",
+  "hireDate": "2010-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 25,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 8
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000189",
+  "nationalId": "9452116-5",
+  "firstName": "Tomás",
+  "lastName": "Simulado Borrador",
+  "siteCode": "CL-CON",
+  "hireDate": "2020-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000190",
+  "nationalId": "21495038-3",
+  "firstName": "Ignacio",
+  "lastName": "Maqueta Plantilla",
+  "siteCode": "CL-CON",
+  "hireDate": "2012-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000191",
+  "nationalId": "8301760-0",
+  "firstName": "Matías",
+  "lastName": "Bosquejo Ejemplo",
+  "siteCode": "CL-CON",
+  "hireDate": "2011-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 12,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 11
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000192",
+  "nationalId": "12439234-9",
+  "firstName": "Tomás",
+  "lastName": "Ensayo Ficticio",
+  "siteCode": "CL-CON",
+  "hireDate": "2020-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 15,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000193",
+  "nationalId": "18186454-0",
+  "firstName": "Josefa",
+  "lastName": "Muestra Muestra",
+  "siteCode": "CL-CON",
+  "hireDate": "2012-06-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 5,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 3
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 6
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000194",
+  "nationalId": "8638006-4",
+  "firstName": "Vicente",
+  "lastName": "Prueba Ejemplo",
+  "siteCode": "CL-CON",
+  "hireDate": "2021-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 19,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000195",
+  "nationalId": "20119815-1",
+  "firstName": "Antonia",
+  "lastName": "Bosquejo Ensayo",
+  "siteCode": "CL-CON",
+  "hireDate": "2021-04-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 6,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 14
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 7
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000196",
+  "nationalId": "23562131-2",
+  "firstName": "Ignacio",
+  "lastName": "Ensayo Modelo",
+  "siteCode": "CL-CON",
+  "hireDate": "2020-08-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 9
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000197",
+  "nationalId": "14745490-2",
+  "firstName": "Agustín",
+  "lastName": "Simulado Borrador",
+  "siteCode": "CL-CON",
+  "hireDate": "2011-02-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 1
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 5
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 3
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000198",
+  "nationalId": "24070822-1",
+  "firstName": "Javiera",
+  "lastName": "Muestra Ficticio",
+  "siteCode": "CL-CON",
+  "hireDate": "2020-10-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 7,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 13
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 12
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000199",
+  "nationalId": "8413353-1",
+  "firstName": "Florencia",
+  "lastName": "Muestra Borrador",
+  "siteCode": "CL-CON",
+  "hireDate": "2017-03-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 18,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 6
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 2
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 4
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 5
+   }
+  ]
+ },
+ {
+  "employeeCode": "CL-000200",
+  "nationalId": "24593686-9",
+  "firstName": "Gaspar",
+  "lastName": "Simulado Simulado",
+  "siteCode": "CL-CON",
+  "hireDate": "2012-09-01",
+  "terminationDate": null,
+  "leaveBalanceDays": 21,
+  "weeklyHours": 42,
+  "history": [
+   {
+    "period": "2026-03",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-04",
+    "category": "overtime",
+    "total": 7
+   },
+   {
+    "period": "2026-05",
+    "category": "overtime",
+    "total": 11
+   },
+   {
+    "period": "2026-06",
+    "category": "overtime",
+    "total": 10
+   },
+   {
+    "period": "2026-07",
+    "category": "overtime",
+    "total": 8
+   },
+   {
+    "period": "2026-08",
+    "category": "overtime",
+    "total": 10
+   }
+  ]
+ }
+]

@@ -1,0 +1,39 @@
+{
+  "_comment": "Valdoria es un país FICTICIO, cargado solo con datos para demostrar que agregar un país no requiere cambiar código.",
+  "country": {
+    "code": "VD",
+    "name": "Valdoria (país ficticio)",
+    "national_id_label": "NIV",
+    "national_id_validator": "regex",
+    "national_id_regex": "^VD-\\d{6}$",
+    "timezone": "America/Santiago"
+  },
+  "sites": [
+    { "code": "VD-NOR", "name": "Planta Norte de Valdoria", "employees": 30 }
+  ],
+  "concepts": [
+    { "code": "OT", "name": "Horas extra", "unit": "hours", "category": "overtime", "requires_support": false },
+    { "code": "VAC", "name": "Vacaciones", "unit": "days", "category": "vacation", "requires_support": false },
+    { "code": "SICK", "name": "Licencia por enfermedad", "unit": "days", "category": "medical_leave", "requires_support": true },
+    { "code": "ABS", "name": "Ausencia", "unit": "days", "category": "absence", "requires_support": false },
+    { "code": "BONO_ASIST", "name": "Bono por asistencia", "unit": "days", "category": "benefit", "requires_support": false }
+  ],
+  "rules": [
+    { "rule_key": "max_overtime_hours_per_day", "value_numeric": 3, "unit": "hours", "description": "Máximo de horas extra por día", "legal_reference": "Ley ficticia de Valdoria", "procedure_keywords": ["3 horas extra", "tres horas extra"], "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "max_overtime_hours_per_week", "value_numeric": 15, "unit": "hours", "description": "Tope semanal de horas extra", "legal_reference": "Ley ficticia de Valdoria", "procedure_keywords": ["15 horas"], "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "weekly_hours_limit", "value_numeric": 45, "unit": "hours", "description": "Jornada ordinaria máxima semanal", "legal_reference": "Ley ficticia de Valdoria", "procedure_keywords": ["45 horas"], "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "annual_leave_business_days", "value_numeric": 20, "unit": "days", "description": "Vacaciones anuales", "legal_reference": "Ley ficticia de Valdoria", "procedure_keywords": ["20 días"], "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "vacation_business_days_only", "value_numeric": 0, "unit": "flag", "description": "Las vacaciones se cuentan en días corridos", "legal_reference": "Ley ficticia de Valdoria", "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "outlier_z_score", "value_numeric": 3, "unit": "z", "description": "Desviaciones estándar para atípicos", "legal_reference": null, "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "outlier_min_history", "value_numeric": 3, "unit": "periods", "description": "Meses mínimos de historial", "legal_reference": null, "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null },
+    { "rule_key": "file_name_pattern", "value_text": "^NOV_[A-Z]{2}_[A-Z]{2}-[A-Z0-9]{2,6}_\\d{4}-\\d{2}\\.(xlsx|xls|csv)$", "unit": "regex", "description": "Patrón del nombre de archivo", "legal_reference": null, "procedure_keywords": null, "valid_from": "2000-01-01", "valid_to": null }
+  ],
+  "validation_rules": [
+    { "code": "LEG-001", "name": "Tope diario de horas extra", "severity": "warning", "owner": "central", "message_template": "{quantity} horas extra el {date}; el tope diario en Valdoria es {max}." }
+  ],
+  "periods": [
+    { "period": "2026-08", "status": "closed", "cutoff_date": "2026-08-25" },
+    { "period": "2026-09", "status": "open", "cutoff_date": "2026-10-20" },
+    { "period": "2026-10", "status": "open", "cutoff_date": "2026-10-25" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "NOV_VD_VD-NOR_2026-09.xlsx",
+  "countryCode": "VD",
+  "siteCode": "VD-NOR",
+  "period": "2026-09",
+  "description": "País ficticio Valdoria: otro identificador, otros conceptos y otro tope.",
+  "expected": [
+    {
+      "code": "LEG-001",
+      "rowNumber": 3
+    },
+    {
+      "code": "IDN-004",
+      "rowNumber": 5
+    },
+    {
+      "code": "CON-002",
+      "rowNumber": 6
+    }
+  ]
+}

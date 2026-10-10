@@ -1,0 +1,13 @@
+{
+  "file": "NOV_CL_CL-CON_2026-10.xlsx",
+  "countryCode": "CL",
+  "siteCode": "CL-CON",
+  "period": "2026-10",
+  "description": "Plantilla con encabezados y sin filas.",
+  "expected": [
+    {
+      "code": "STR-003",
+      "rowNumber": null
+    }
+  ]
+}

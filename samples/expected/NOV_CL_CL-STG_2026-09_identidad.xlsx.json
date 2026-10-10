@@ -1,0 +1,37 @@
+{
+  "file": "NOV_CL_CL-STG_2026-09_identidad.xlsx",
+  "countryCode": "CL",
+  "siteCode": "CL-STG",
+  "period": "2026-09",
+  "description": "Errores de identidad del trabajador; el sufijo _identidad rompe el patrón de nombre.",
+  "expected": [
+    {
+      "code": "STR-005",
+      "rowNumber": null
+    },
+    {
+      "code": "IDN-001",
+      "rowNumber": 3
+    },
+    {
+      "code": "IDN-002",
+      "rowNumber": 4
+    },
+    {
+      "code": "IDN-003",
+      "rowNumber": 5
+    },
+    {
+      "code": "IDN-004",
+      "rowNumber": 6
+    },
+    {
+      "code": "IDN-005",
+      "rowNumber": 7
+    },
+    {
+      "code": "IDN-006",
+      "rowNumber": 8
+    }
+  ]
+}

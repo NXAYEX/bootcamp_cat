@@ -1,0 +1,13 @@
+{
+  "file": "NOV_CL_CL-STG_2026-08.xlsx",
+  "countryCode": "CL",
+  "siteCode": "CL-STG",
+  "period": "2026-08",
+  "description": "Novedades de un periodo ya cerrado.",
+  "expected": [
+    {
+      "code": "PER-002",
+      "rowNumber": null
+    }
+  ]
+}

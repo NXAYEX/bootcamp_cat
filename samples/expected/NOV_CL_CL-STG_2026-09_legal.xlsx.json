@@ -1,0 +1,53 @@
+{
+  "file": "NOV_CL_CL-STG_2026-09_legal.xlsx",
+  "countryCode": "CL",
+  "siteCode": "CL-STG",
+  "period": "2026-09",
+  "description": "Topes legales, coherencia entre conceptos y valores atípicos; el sufijo _legal rompe el patrón de nombre.",
+  "expected": [
+    {
+      "code": "STR-005",
+      "rowNumber": null
+    },
+    {
+      "code": "LEG-001",
+      "rowNumber": 2
+    },
+    {
+      "code": "LEG-002",
+      "rowNumber": 9
+    },
+    {
+      "code": "LEG-003",
+      "rowNumber": 12
+    },
+    {
+      "code": "LEG-004",
+      "rowNumber": 13
+    },
+    {
+      "code": "LEG-005",
+      "rowNumber": 14
+    },
+    {
+      "code": "COH-001",
+      "rowNumber": 16
+    },
+    {
+      "code": "COH-002",
+      "rowNumber": 18
+    },
+    {
+      "code": "COH-003",
+      "rowNumber": 20
+    },
+    {
+      "code": "COH-004",
+      "rowNumber": 21
+    },
+    {
+      "code": "RNG-001",
+      "rowNumber": 30
+    }
+  ]
+}

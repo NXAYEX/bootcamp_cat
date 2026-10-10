@@ -1,0 +1,57 @@
+{
+  "file": "NOV_CL_CL-ANF_2026-09.csv",
+  "countryCode": "CL",
+  "siteCode": "CL-ANF",
+  "period": "2026-09",
+  "description": "CSV con punto y coma, columnas renombradas y errores de periodo, duplicados, conceptos y tipos.",
+  "expected": [
+    {
+      "code": "STR-002",
+      "rowNumber": null
+    },
+    {
+      "code": "STR-002",
+      "rowNumber": null
+    },
+    {
+      "code": "STR-002",
+      "rowNumber": null
+    },
+    {
+      "code": "STR-002",
+      "rowNumber": null
+    },
+    {
+      "code": "PER-001",
+      "rowNumber": 3
+    },
+    {
+      "code": "PER-001",
+      "rowNumber": 4
+    },
+    {
+      "code": "PER-003",
+      "rowNumber": 4
+    },
+    {
+      "code": "DUP-001",
+      "rowNumber": 6
+    },
+    {
+      "code": "CON-001",
+      "rowNumber": 7
+    },
+    {
+      "code": "CON-002",
+      "rowNumber": 8
+    },
+    {
+      "code": "CON-003",
+      "rowNumber": 9
+    },
+    {
+      "code": "STR-004",
+      "rowNumber": 10
+    }
+  ]
+}

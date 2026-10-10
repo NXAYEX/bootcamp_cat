@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-10-10T14:27:45.637Z",
+  "files": [
+    {
+      "file": "NOV_CL_CL-ANF_2026-09.csv",
+      "expected": 12,
+      "detected": 12,
+      "truePositives": 12,
+      "falseNegatives": [],
+      "falsePositives": []
+    },
+    {
+      "file": "NOV_CL_CL-CON_2026-09.xlsx",
+      "expected": 1,
+      "detected": 1,
+      "truePositives": 1,
+      "falseNegatives": [],
+      "falsePositives": []
+    },
+    {
+      "file": "NOV_CL_CL-CON_2026-10.xlsx",
+      "expected": 1,
+      "detected": 1,
+      "truePositives": 1,
+      "falseNegatives": [],
+      "falsePositives": []
+    },
+    {
+      "file": "NOV_CL_CL-STG_2026-08.xlsx",
+      "expected": 1,
+      "detected": 1,
+      "truePositives": 1,
+      "falseNegatives": [],
+      "falsePositives": []
+    },
+    {
+      "file": "NOV_CL_CL-STG_2026-09_identidad.xlsx",
+      "expected": 7,
+      "detected": 7,
+      "truePositives": 7,
+      "falseNegatives": [],
+      "falsePositives": []
+    },
+    {
+      "file": "NOV_CL_CL-STG_2026-09_legal.xlsx",
+      "expected": 11,
+      "detected": 11,
+      "truePositives": 11,
+      "falseNegatives": [],
+      "falsePositives": []
+    },
+    {
+      "file": "NOV_CL_CL-STG_2026-09.xlsx",
+      "expected": 0,
+      "detected": 0,
+      "truePositives": 0,
+      "falseNegatives": [],
+      "falsePositives": []
+    },
+    {
+      "file": "NOV_VD_VD-NOR_2026-09.xlsx",
+      "expected": 3,
+      "detected": 3,
+      "truePositives": 3,
+      "falseNegatives": [],
+      "falsePositives": []
+    }
+  ],
+  "totals": {
+    "expected": 36,
+    "detected": 36,
+    "truePositives": 36,
+    "detectionRate": 1,
+    "falsePositiveRate": 0
+  }
+}

@@ -16,33 +16,34 @@ Leyenda: `[x]` hecho y verificado · `[~]` hecho en código, falta verificar en 
 
 ## Fase 3 — Datos de referencia de Chile
 - [x] `002_reference_model.sql`, `003_seed_reference_cl.sql`, `004_seed_employees_cl.sql` (generados por `scripts/build-seed.mjs`)
-- [ ] /configuracion: admin ve y edita reglas, conceptos y reglas de validación
+- [~] /configuracion: reglas con vigencia, conceptos, reglas de validación, periodos, checklist, usuarios y auditoría
 
 ## Fase 4 — Motor de validación
-- [ ] `src/lib/validation/` con el catálogo §7.2 y pruebas
-- [ ] `samples/` + `samples/expected/` con detección y falsos positivos
+- [x] `src/lib/validation/` con los 31 códigos y 130 pruebas
+- [x] 8 archivos en `samples/` + `samples/expected/`: detección 100 %, falsos positivos 0 %
 
 ## Fase 5 — Subida de Excel/CSV
 - [x] `005_batches.sql` (lotes, filas, hallazgos, RPC, bucket privado)
-- [ ] /lotes/nuevo y /lotes/:id
+- [~] /lotes/nuevo y /lotes/:id (mapeo, validación, envío, decisión, archivo original)
 
 ## Fase 6 — Excepciones y exportación
-- [ ] /excepciones y /exportaciones
+- [~] /excepciones (ciclo de vida, aceptación con justificación) y /exportaciones (CSV canónico, solo aprobados)
 
 ## Fase 7 — Captura móvil
-- [ ] /captura
+- [~] /captura (paso a paso, botones ≥ 44 px, borrador en el dispositivo, mismo motor)
 
 ## Fase 8 — Módulo B sin IA
 - [x] Auditor por palabras clave + 3 procedimientos de prueba (bueno 100, regular 35,2, malo 3,7)
 - [x] `006_procedures.sql`
-- [ ] /procedimientos y /procedimientos/:id
+- [~] /procedimientos y /procedimientos/:id (cita o «no encontrado», revisión humana)
 
 ## Fase 9 — IA
-- [ ] Edge Function `ai-assist` y caída al modo sin IA
+- [~] Edge Function `ai-assist` (Claude, JSON con esquema, minimización, confianza) y caída al modo sin IA
 
 ## Fase 10 — Reportes y escalabilidad
 - [x] `007_reports.sql`, `008_seed_country_vd.sql`
-- [ ] /reportes, /acerca, validación de un lote de Valdoria
+- [~] /reportes y /acerca; lote de Valdoria validado en pruebas (falta en la web)
 
 ## Registro de estado por fase
 <!-- Una línea por fase al cerrarla: fecha · fase · resultado · commit -->
+2026-10-10 · Fases 1 a 10 · código completo, build y 130 pruebas OK · falta verificar en Vercel con Supabase conectado

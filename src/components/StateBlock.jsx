@@ -28,12 +28,12 @@ export function EmptyState({ title, children, action }) {
   );
 }
 
-export function ErrorState({ message, onRetry }) {
+export function ErrorState({ title = "No se pudieron cargar los datos", message, onRetry }) {
   return (
     <div role="alert" className="flex flex-col gap-3 rounded-lg border border-bloqueado/30 bg-bloqueado-suave p-4 sm:flex-row sm:items-center">
       <CircleAlert className="h-5 w-5 shrink-0 text-bloqueado" aria-hidden="true" />
       <div className="flex-1 text-sm">
-        <p className="font-medium text-bloqueado">No se pudieron cargar los datos</p>
+        <p className="font-medium text-bloqueado">{title}</p>
         <p className="text-pizarra">{message}</p>
       </div>
       {onRetry && (

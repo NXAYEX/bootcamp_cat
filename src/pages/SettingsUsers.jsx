@@ -88,15 +88,15 @@ function AccessList({ user, countries, sites, onAct }) {
         </ul>
       )}
       <div className="mt-3 grid gap-2 sm:grid-cols-[1fr_1fr_1fr_auto]">
-        <Select id={`c-${user.id}`} value={country} onChange={(v) => { setCountry(v); setSiteId(""); }}>
+        <Select id={`c-${user.id}`} label="País" value={country} onChange={(v) => { setCountry(v); setSiteId(""); }}>
           <option value="">País…</option>
           {countries.map((c) => <option key={c.code} value={c.code}>{c.name}</option>)}
         </Select>
-        <Select id={`s-${user.id}`} value={siteId} onChange={setSiteId} disabled={!country}>
+        <Select id={`s-${user.id}`} label="Planta" value={siteId} onChange={setSiteId} disabled={!country}>
           <option value="">Todo el país</option>
           {countrySites.map((s) => <option key={s.id} value={s.id}>{s.name}</option>)}
         </Select>
-        <Select id={`p-${user.id}`} value={process} onChange={setProcess}>
+        <Select id={`p-${user.id}`} label="Proceso" value={process} onChange={setProcess}>
           {Object.entries(PROCESS_LABELS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
         </Select>
         <Button

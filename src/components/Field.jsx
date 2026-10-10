@@ -12,9 +12,9 @@ export function Field({ label, htmlFor, hint, error, children, className = "" })
   );
 }
 
-export function Select({ id, value, onChange, children, disabled, className = "" }) {
+export function Select({ id, value, onChange, children, disabled, className = "", label }) {
   return (
-    <select id={id} value={value} onChange={(e) => onChange(e.target.value)} disabled={disabled} className={`${inputClass} ${className}`}>
+    <select id={id} aria-label={label} value={value} onChange={(e) => onChange(e.target.value)} disabled={disabled} className={`${inputClass} ${className}`}>
       {children}
     </select>
   );

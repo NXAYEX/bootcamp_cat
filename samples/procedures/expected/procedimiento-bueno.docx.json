@@ -1,0 +1,10 @@
+{
+  "file": "procedimiento-bueno.docx",
+  "reviewer": "Revisión humana sintética, escrita antes de ajustar el algoritmo",
+  "expectedScoreRange": [90, 100],
+  "items": {
+    "P-01": "cumple", "P-02": "cumple", "P-03": "cumple", "P-04": "cumple",
+    "P-05": "cumple", "P-06": "cumple", "P-07": "cumple", "P-08": "cumple",
+    "P-09": "cumple", "P-10": "cumple", "P-11": "cumple", "P-12": "cumple"
+  }
+}

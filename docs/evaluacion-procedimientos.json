@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-10-10T14:25:59.349Z",
+  "today": "2026-10-10",
+  "documents": [
+    {
+      "file": "procedimiento-bueno.md",
+      "score": 100,
+      "concordance": 1,
+      "disagreements": []
+    },
+    {
+      "file": "procedimiento-regular.txt",
+      "score": 35.2,
+      "concordance": 0.917,
+      "disagreements": [
+        {
+          "item": "P-03",
+          "human": "parcial",
+          "algorithm": "no_encontrado"
+        }
+      ]
+    },
+    {
+      "file": "procedimiento-malo.md",
+      "score": 3.7,
+      "concordance": 0.917,
+      "disagreements": [
+        {
+          "item": "P-07",
+          "human": "parcial",
+          "algorithm": "no_encontrado"
+        }
+      ]
+    },
+    {
+      "file": "procedimiento-bueno.docx",
+      "score": 100,
+      "concordance": 1,
+      "disagreements": []
+    }
+  ],
+  "overall": {
+    "concordance": 0.958,
+    "findingsWithQuotePct": 100,
+    "unsupportedFindings": 0
+  }
+}

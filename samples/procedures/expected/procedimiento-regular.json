@@ -1,0 +1,15 @@
+{
+  "file": "procedimiento-regular.txt",
+  "reviewer": "Revisión humana sintética, escrita antes de ajustar el algoritmo",
+  "notes": {
+    "P-03": "Roles vagos: 'el encargado' y 'alguien de remuneraciones'; no dice quién aprueba.",
+    "P-06": "Solo menciona el tope de 2 horas extraordinarias por día; faltan 42 horas, 50 % y 15 días hábiles.",
+    "P-10": "Define canal (correo o carpeta compartida) pero no la salida esperada."
+  },
+  "expectedScoreRange": [25, 55],
+  "items": {
+    "P-01": "parcial", "P-02": "parcial", "P-03": "parcial", "P-04": "parcial",
+    "P-05": "parcial", "P-06": "parcial", "P-07": "parcial", "P-08": "parcial",
+    "P-09": "no_encontrado", "P-10": "parcial", "P-11": "no_encontrado", "P-12": "no_encontrado"
+  }
+}

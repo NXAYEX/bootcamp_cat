@@ -1,0 +1,19 @@
+Procedimiento de novedades de remuneraciones
+
+Este documento explica cómo se envían las novedades a remuneraciones en las plantas de la compañía. Incluye horas extraordinarias, feriado legal y licencias.
+
+Las novedades se juntan durante el mes y se mandan antes de la fecha de corte, que normalmente es a principios del mes siguiente.
+
+El encargado de cada área junta la información y la manda. Después alguien de remuneraciones la revisa y, si está todo bien, se procesa.
+
+Se usa la planilla de novedades con el RUT del trabajador, el tipo de novedad y la cantidad. Hay que fijarse en que el formato de las fechas sea el correcto.
+
+Las licencias médicas se informan con su folio. Las horas extra deben estar conversadas con la jefatura.
+
+Se debe respetar la ley: las horas extraordinarias no pueden pasar de 2 horas extraordinarias por día y se pagan con el recargo que corresponda según la jornada.
+
+Antes de enviar conviene revisar que no falten datos.
+
+Si hay algún error, remuneraciones avisa y el área lo corrige.
+
+El archivo se envía por correo a remuneraciones o se deja en la carpeta compartida.

@@ -25,8 +25,14 @@ export default function BatchDetail() {
   const rules = useAsync(() => (batch.data ? getValidationRules(batch.data.country_code) : Promise.resolve({ data: [] })), [batch.data?.country_code]);
   const countries = useAsync(() => getCountries(), []);
   const [params] = useSearchParams();
-  const focusRow = Number(params.get("fila")) || null;
-  const [tab, setTab] = useState(focusRow ? "rows" : "findings");
+  const initialRow = Number(params.get("fila")) || null;
+  const [tab, setTab] = useState(initialRow ? "rows" : "findings");
+  // { row, n }: n cambia en cada clic, así «Corregir fila» funciona también sobre la misma fila dos veces.
+  const [focus, setFocus] = useState(initialRow ? { row: initialRow, n: 0 } : null);
+  const correctRow = (row) => {
+    setFocus((f) => ({ row, n: (f?.n ?? 0) + 1 }));
+    setTab("rows");
+  };
   const [downloading, setDownloading] = useState(false);
   const [downloadError, setDownloadError] = useState(null);
 
@@ -128,10 +134,10 @@ export default function BatchDetail() {
         ) : list.length === 0 ? (
           <EmptyState title="Sin hallazgos">El motor no encontró errores ni advertencias en este lote.</EmptyState>
         ) : (
-          <FindingsTable findings={list} showStatus renderActions={(f) => <FindingActions finding={f} batchStatus={b.status} rule={ruleByCode[f.code]} onChanged={refresh} correctTo={canEdit && f.row_number ? `/lotes/${b.id}?fila=${f.row_number}` : null} />} />
+          <FindingsTable findings={list} showStatus renderActions={(f) => <FindingActions finding={f} batchStatus={b.status} rule={ruleByCode[f.code]} onChanged={refresh} onCorrect={canEdit && f.row_number ? () => correctRow(f.row_number) : null} />} />
         )
       ) : (
-        country ? <BatchRowsEditor batch={b} country={country} findings={list} canEdit={canEdit} focusRow={focusRow} onSaved={refresh} /> : <LoadingState label="Cargando filas…" />
+        country ? <BatchRowsEditor batch={b} country={country} findings={list} canEdit={canEdit} focus={focus} onSaved={refresh} /> : <LoadingState label="Cargando filas…" />
       )}
     </>
   );

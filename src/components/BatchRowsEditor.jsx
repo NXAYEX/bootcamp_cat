@@ -19,7 +19,7 @@ const FIELD_LABEL = { national_id: "Identificador", employee_code: "Código", co
 const text = (v) => (v === null || v === undefined ? "" : String(v).trim());
 
 // Pestaña «Filas»: permite corregir una fila, volver a validar todo el lote y dejar registro de cada cambio.
-export default function BatchRowsEditor({ batch, country, findings, canEdit, focusRow, onSaved }) {
+export default function BatchRowsEditor({ batch, country, findings, canEdit, focus, onSaved }) {
   const rows = useAsync(() => getBatchRows(batch.id), [batch.id, batch.revision]);
   const edits = useAsync(() => listRowEdits(batch.id), [batch.id, batch.revision]);
   const concepts = useAsync(() => getConcepts(batch.country_code), [batch.country_code]);
@@ -32,7 +32,8 @@ export default function BatchRowsEditor({ batch, country, findings, canEdit, foc
   const [busy, setBusy] = useState(null);
   const [error, setError] = useState(null);
   const [notice, setNotice] = useState(null);
-  const focused = useRef(false);
+  const handledFocus = useRef(null);
+  const editorRef = useRef(null);
 
   const findingsByRow = useMemo(() => {
     const map = new Map();
@@ -84,14 +85,19 @@ export default function BatchRowsEditor({ batch, country, findings, canEdit, foc
 
   // Al llegar desde un hallazgo (?fila=N) se abre directamente esa fila.
   useEffect(() => {
-    if (focusRow && canEdit && !focused.current && rows.data) {
-      focused.current = true;
-      const idx = rows.data.findIndex((r) => r.row_number === focusRow);
-      if (idx >= PAGE) setLimit(idx + 1);
-      startEdit(focusRow);
-    }
+    if (!focus || !canEdit || !rows.data || handledFocus.current === focus) return;
+    handledFocus.current = focus;
+    setOnlyFindings(false);
+    const idx = rows.data.findIndex((r) => r.row_number === focus.row);
+    if (idx >= PAGE) setLimit(idx + 1);
+    startEdit(focus.row);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [focusRow, canEdit, rows.data]);
+  }, [focus, canEdit, rows.data]);
+
+  // Lleva la vista al formulario de corrección al abrirlo.
+  useEffect(() => {
+    if (editing !== null) editorRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+  }, [editing]);
 
   async function save() {
     setError(null);
@@ -171,7 +177,7 @@ export default function BatchRowsEditor({ batch, country, findings, canEdit, foc
               const rowFindings = findingsByRow.get(r.row_number) || [];
               if (editing === r.row_number) {
                 return (
-                  <tr key={r.id} className="bg-petroleo-suave/40">
+                  <tr key={r.id} ref={editorRef} className="bg-petroleo-suave/40">
                     <td colSpan={9} className="px-3 py-3">
                       <p className="mb-2 text-sm font-medium">Corregir la fila {r.row_number}</p>
                       {rowFindings.length > 0 && (

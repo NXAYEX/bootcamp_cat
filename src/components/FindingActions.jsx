@@ -8,7 +8,8 @@ import Button from "./Button";
 import { inputClass } from "./Field";
 
 // Acciones del ciclo de vida de un hallazgo según rol y responsable. La base de datos vuelve a validar cada regla.
-export default function FindingActions({ finding, batchStatus, onChanged, rule, correctTo }) {
+// onCorrect: dentro del detalle del lote abre la fila en la pestaña Filas. correctTo: desde otra página, enlace al lote.
+export default function FindingActions({ finding, batchStatus, onChanged, rule, correctTo, onCorrect }) {
   const { role } = useAuth();
   const [open, setOpen] = useState(null);
   const [note, setNote] = useState("");
@@ -55,9 +56,12 @@ export default function FindingActions({ finding, batchStatus, onChanged, rule, 
             <button key={status} type="button" disabled={busy} onClick={() => apply(status)} className={smallBtn}>{label}</button>
           )
         )}
-        {correctTo && canWork && editable && ["open", "in_correction"].includes(finding.status) && (
-          <Link to={correctTo} className={primarySmallBtn}>Corregir fila</Link>
-        )}
+        {(onCorrect || correctTo) && canWork && editable && ["open", "in_correction"].includes(finding.status) &&
+          (onCorrect ? (
+            <button type="button" onClick={onCorrect} className={primarySmallBtn}>Corregir fila</button>
+          ) : (
+            <Link to={correctTo} className={primarySmallBtn}>Corregir fila</Link>
+          ))}
         <Explain finding={finding} rule={rule} explanation={explanation} setExplanation={setExplanation} inline />
       </div>
       {open && (

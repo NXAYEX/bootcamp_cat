@@ -135,6 +135,10 @@ describe("identidad", () => {
     expect(codesOf(r)).toEqual(["IDN-006"]);
     expect(r.findings[0].message).not.toContain("22480194");
   });
+  it("IDN-006 conserva el código informado en la fila normalizada (no lo reemplaza por el del maestro)", () => {
+    const r = run([row({ employee_code: "CL-000012" })]);
+    expect(r.normalizedRows[0].employee_code).toBe("CL-000012");
+  });
   it("IDN-001 tiene precedencia sobre IDN-003…006", () => {
     const r = run([row({ national_id: "18294438-0", employee_code: "CL-000091" })]);
     expect(codesOf(r)).toEqual(["IDN-001"]);

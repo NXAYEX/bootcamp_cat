@@ -1,0 +1,28 @@
+// Qué hacer para corregir cada tipo de hallazgo de fila. Son textos genéricos (no dependen del país):
+// los valores legales concretos vienen en el mensaje del hallazgo, que se arma con las reglas del país.
+export const FIX_HINTS = {
+  "STR-004": "Completa el dato que falta o corrige su formato (fecha AAAA-MM-DD, cantidad numérica mayor que cero).",
+  "IDN-001": "El identificador tiene un error de formato o de dígito verificador. Elige al trabajador en el buscador o corrígelo a mano.",
+  "IDN-002": "Ese trabajador no está en el maestro. Elige al trabajador correcto en el buscador; si de verdad falta en el maestro, lo corrige el centro de operaciones.",
+  "IDN-003": "El trabajador pertenece a otra planta. Elige en el buscador al trabajador correcto de esta planta.",
+  "IDN-004": "La novedad es posterior a la desvinculación. Revisa la fecha o el trabajador.",
+  "IDN-005": "La novedad es anterior a la contratación. Revisa la fecha o el trabajador.",
+  "IDN-006": "El identificador y el código son de personas distintas. Elige al trabajador en el buscador para dejar ambos coherentes.",
+  "PER-001": "La fecha está fuera del periodo declarado. Corrígela a un día del mes del lote.",
+  "PER-003": "La fecha es futura. Corrígela.",
+  "DUP-001": "Esta novedad está repetida en el archivo. Cambia la fecha o el concepto si era otro día; si es un duplicado real, deja la cantidad en la fila que corresponde.",
+  "DUP-003": "La misma novedad ya se informó en otro lote del periodo. Si el otro lote está mal, pide al centro de operaciones que lo devuelva.",
+  "COH-001": "Feriado y horas extraordinarias el mismo día. Revisa cuál de las dos es correcta.",
+  "COH-002": "Ausencia y horas extraordinarias el mismo día. Revisa cuál de las dos es correcta.",
+  "COH-003": "Licencia médica cruzada con feriado. Revisa las fechas.",
+  "COH-004": "El feriado cae en un día no hábil. Revisa la fecha.",
+  "LEG-001": "Supera el tope diario de horas extraordinarias. Corrige la cantidad.",
+  "LEG-002": "Supera el tope semanal de horas extraordinarias. Revisa las cantidades de esa semana.",
+  "LEG-003": "Los días de feriado superan el saldo del trabajador. Revisa la cantidad.",
+  "LEG-004": "Este concepto exige respaldo. Escribe el folio o la autorización.",
+  "LEG-005": "La jornada contractual del trabajador supera la legal. Lo revisa el centro de operaciones.",
+  "CON-001": "El concepto no existe. Elige un concepto de la lista.",
+  "CON-002": "Ese concepto no existe en este país. Elige un concepto de la lista.",
+  "CON-003": "La unidad no corresponde al concepto. Elige el concepto correcto.",
+  "RNG-001": "El total es atípico frente al historial del trabajador. Confirma la cantidad.",
+};

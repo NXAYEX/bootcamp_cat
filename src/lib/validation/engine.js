@@ -13,7 +13,8 @@ function toNormalized(r) {
   return {
     rowNumber: r.rowNumber,
     employeeId: r.employee?.id ?? null,
-    employee_code: r.employee?.employeeCode ?? r.employeeCodeRaw ?? null,
+    // Se conserva el código tal como se informó; si no vino, se completa con el del maestro.
+    employee_code: r.employeeCodeRaw ?? r.employee?.employeeCode ?? null,
     national_id: r.nationalId,
     national_id_masked: r.nationalIdMasked,
     concept_code: r.conceptCode,

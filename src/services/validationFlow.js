@@ -93,5 +93,5 @@ export async function saveCorrections({ batch, country, site, rows, edits, findi
   if (validated.error) return validated;
   const saved = await correctBatch(batch.id, batch.revision, toDbRows(validated.data), toDbFindings(validated.data), validated.data.fingerprint, edits);
   if (saved.error) return saved;
-  return { data: { disposition: saved.data, counts: validated.data.counts }, error: null };
+  return { data: { disposition: saved.data, counts: validated.data.counts, findings: validated.data.findings }, error: null };
 }

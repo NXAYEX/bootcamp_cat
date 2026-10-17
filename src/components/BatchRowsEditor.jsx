@@ -20,8 +20,8 @@ const text = (v) => (v === null || v === undefined ? "" : String(v).trim());
 
 // Pestaña «Filas»: permite corregir una fila, volver a validar todo el lote y dejar registro de cada cambio.
 export default function BatchRowsEditor({ batch, country, findings, canEdit, focusRow, onSaved }) {
-  const rows = useAsync(() => getBatchRows(batch.id), [batch.id, batch.fingerprint]);
-  const edits = useAsync(() => listRowEdits(batch.id), [batch.id, batch.fingerprint]);
+  const rows = useAsync(() => getBatchRows(batch.id), [batch.id, batch.revision]);
+  const edits = useAsync(() => listRowEdits(batch.id), [batch.id, batch.revision]);
   const concepts = useAsync(() => getConcepts(batch.country_code), [batch.country_code]);
 
   const [full, setFull] = useState(null);
@@ -58,6 +58,11 @@ export default function BatchRowsEditor({ batch, country, findings, canEdit, foc
         return;
       }
       source = res.data;
+      if (source.some((r) => !r.national_id && r.national_id_masked)) {
+        setBusy(null);
+        setError("Este lote se envió antes de habilitar la corrección en la app y no guardó el identificador completo. Descarga el archivo original, corrígelo y vuelve a subirlo.");
+        return;
+      }
       setFull(source);
     }
     setBusy(null);
@@ -106,10 +111,16 @@ export default function BatchRowsEditor({ batch, country, findings, canEdit, foc
     }
     const updated = full.map((r) => (r.row_number === editing ? { ...r, ...Object.fromEntries(EDITABLE.map((f) => [f, draft[f] === "" ? null : draft[f]])) } : r));
     setBusy("save");
-    const res = await saveCorrections({ batch, country, site: { id: batch.site_id, code: batch.sites?.code }, rows: updated, edits: changes });
+    const res = await saveCorrections({ batch, country, site: { id: batch.site_id, code: batch.sites?.code }, rows: updated, edits: changes, findings });
     setBusy(null);
     if (res.error) {
       setError(res.error.message);
+      // Si otra persona guardó antes, se descartan los datos en memoria para no volver a pisar su cambio.
+      if (/Otra persona/.test(res.error.message)) {
+        setFull(null);
+        setEditing(null);
+        onSaved();
+      }
       return;
     }
     setFull(null);

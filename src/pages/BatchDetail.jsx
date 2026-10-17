@@ -62,7 +62,8 @@ export default function BatchDetail() {
       setDownloadError(res.error.message);
       return;
     }
-    const columns = ["rut", "codigo_empleado", "concepto", "fecha", "cantidad", "unidad", "respaldo", "modificado"];
+    // Solo columnas de la plantilla: la marca de corrección va en «observacion», que el motor no valida.
+    const columns = ["rut", "codigo_empleado", "concepto", "fecha", "cantidad", "unidad", "respaldo", "observacion"];
     const lines = res.data.map((r) => ({
       rut: r.national_id,
       codigo_empleado: r.employee_code,
@@ -71,7 +72,7 @@ export default function BatchDetail() {
       cantidad: r.quantity,
       unidad: r.unit,
       respaldo: r.support_ref,
-      modificado: r.edited ? "Sí" : "No",
+      observacion: r.edited ? "Corregido en el validador" : "",
     }));
     downloadText(`NOV_${b.country_code}_${b.sites?.code}_${b.period}.csv`, toCsv(columns, lines));
   }

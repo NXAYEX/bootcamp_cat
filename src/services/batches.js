@@ -1,7 +1,7 @@
 import { run } from "./client";
 
 const BATCH_FIELDS =
-  "id, country_code, site_id, period, source, file_name, file_path, fingerprint, row_count, status, disposition, initial_disposition, approved_disposition, decision_note, created_by, created_at, decided_at, export_id, sites(code, name)";
+  "id, country_code, site_id, period, source, file_name, file_path, fingerprint, revision, row_count, status, disposition, initial_disposition, approved_disposition, decision_note, created_by, created_at, decided_at, export_id, sites(code, name)";
 
 export const listBatches = ({ period, siteId, status } = {}) =>
   run((sb) => {
@@ -78,8 +78,11 @@ export const listRowEdits = (batchId) =>
 export const getEditableRows = (batchId, purpose = "edit") =>
   run((sb) => sb.rpc("get_batch_rows_editable", { p_batch_id: batchId, p_purpose: purpose }));
 
-export const correctBatch = (batchId, rows, findings, fingerprint, edits) =>
-  run((sb) => sb.rpc("correct_batch", { p_batch_id: batchId, p_rows: rows, p_findings: findings, p_fingerprint: fingerprint, p_edits: edits }));
+// revision: versión del lote que el usuario abrió; si otra persona guardó antes, la base de datos rechaza el cambio.
+export const correctBatch = (batchId, revision, rows, findings, fingerprint, edits) =>
+  run((sb) =>
+    sb.rpc("correct_batch", { p_batch_id: batchId, p_revision: revision, p_rows: rows, p_findings: findings, p_fingerprint: fingerprint, p_edits: edits })
+  );
 
 export const updateFindingStatus = (findingId, status, note) =>
   run((sb) => sb.rpc("update_finding_status", { p_finding_id: findingId, p_status: status, p_note: note ?? null }));

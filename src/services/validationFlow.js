@@ -1,3 +1,4 @@
+import { computeMissingFields } from "../lib/parsing";
 import { validateBatch } from "../lib/validation";
 import { todayISO } from "../lib/dates";
 import { correctBatch, submitBatch, uploadBatchFile } from "./batches";
@@ -57,9 +58,26 @@ export async function sendBatch({ result, country, site, period, source, file })
   );
 }
 
+// Reconstruye la estructura del archivo original a partir de sus hallazgos de lote, para que la
+// re-validación conserve las columnas renombradas (STR-002) y el nombre del archivo (STR-005).
+// Una columna obligatoria sigue faltando solo si ninguna fila trae ese dato.
+function structureFromBatch(batch, rows, findings) {
+  if (batch.source !== "file") return null;
+  const present = {};
+  for (const field of ["national_id", "employee_code", "concept_code", "date", "quantity"]) {
+    present[field] = rows.some((r) => r[field] !== null && r[field] !== undefined && String(r[field]).trim() !== "") ? field : undefined;
+  }
+  return {
+    fileName: batch.file_name,
+    headers: [],
+    missingFields: computeMissingFields(present),
+    renamed: findings.filter((f) => f.code === "STR-002" && f.field && f.value).map((f) => ({ header: f.value, field: f.field })),
+  };
+}
+
 // Vuelve a validar todo el lote con las filas ya corregidas y guarda el resultado.
 // La planta de origen y el periodo no cambian; el lote no se compara contra sí mismo.
-export async function saveCorrections({ batch, country, site, rows, edits }) {
+export async function saveCorrections({ batch, country, site, rows, edits, findings }) {
   const engineRows = rows.map((r) => ({
     rowNumber: r.row_number,
     national_id: r.national_id,
@@ -70,10 +88,10 @@ export async function saveCorrections({ batch, country, site, rows, edits }) {
     unit: r.unit,
     support_ref: r.support_ref,
   }));
-  const structure = batch.source === "file" && batch.file_name ? { fileName: batch.file_name, headers: [], missingFields: [], renamed: [] } : null;
+  const structure = structureFromBatch(batch, rows, findings);
   const validated = await validateRows({ rows: engineRows, structure, country, site, period: batch.period, excludeBatchId: batch.id });
   if (validated.error) return validated;
-  const saved = await correctBatch(batch.id, toDbRows(validated.data), toDbFindings(validated.data), validated.data.fingerprint, edits);
+  const saved = await correctBatch(batch.id, batch.revision, toDbRows(validated.data), toDbFindings(validated.data), validated.data.fingerprint, edits);
   if (saved.error) return saved;
   return { data: { disposition: saved.data, counts: validated.data.counts }, error: null };
 }

@@ -55,8 +55,8 @@ export default function FindingActions({ finding, batchStatus, onChanged, rule, 
             <button key={status} type="button" disabled={busy} onClick={() => apply(status)} className={smallBtn}>{label}</button>
           )
         )}
-        {correctTo && ["open", "in_correction"].includes(finding.status) && (
-          <Link to={correctTo} className={`${smallBtn} inline-flex items-center bg-petroleo text-white hover:bg-petroleo-hover`}>Corregir fila</Link>
+        {correctTo && canWork && editable && ["open", "in_correction"].includes(finding.status) && (
+          <Link to={correctTo} className={primarySmallBtn}>Corregir fila</Link>
         )}
         <Explain finding={finding} rule={rule} explanation={explanation} setExplanation={setExplanation} inline />
       </div>
@@ -72,6 +72,10 @@ export default function FindingActions({ finding, batchStatus, onChanged, rule, 
     </div>
   );
 }
+
+// Botón principal: clases propias, sin mezclar con el fondo blanco de smallBtn (Tailwind no garantiza cuál gana).
+const primarySmallBtn =
+  "inline-flex min-h-[32px] items-center rounded bg-petroleo px-2 text-xs font-medium text-white hover:bg-petroleo-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-petroleo focus-visible:ring-offset-1";
 
 const smallBtn =
   "min-h-[32px] rounded border border-linea bg-superficie px-2 text-xs font-medium hover:bg-papel focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-petroleo disabled:opacity-50";

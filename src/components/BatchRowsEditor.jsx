@@ -12,7 +12,8 @@ import { EmptyState, ErrorState, LoadingState } from "./StateBlock";
 import { DISPOSITION } from "./Status";
 
 const PAGE = 200;
-const UNIT = { hours: "horas", days: "días" };
+const UNIT = { hours: ["hora", "horas"], days: ["día", "días"] };
+const unitLabel = (unit, qty) => (UNIT[unit] ? UNIT[unit][Number(qty) === 1 ? 0 : 1] : "");
 const EDITABLE = ["national_id", "employee_code", "concept_code", "date", "quantity", "support_ref"];
 const FIELD_LABEL = { national_id: "Identificador", employee_code: "Código", concept_code: "Concepto", date: "Fecha", quantity: "Cantidad", support_ref: "Respaldo" };
 
@@ -136,7 +137,7 @@ export default function BatchRowsEditor({ batch, country, findings, canEdit, foc
     onSaved();
   }
 
-  if (rows.loading || concepts.loading) return <LoadingState label="Cargando filas…" />;
+  if ((rows.loading && !rows.data) || (concepts.loading && !concepts.data)) return <LoadingState label="Cargando filas…" />;
   if (rows.error) return <ErrorState message={rows.error.message} onRetry={rows.reload} />;
   if (!rows.data.length) return <EmptyState title="El lote no tiene filas" />;
 
@@ -214,7 +215,7 @@ export default function BatchRowsEditor({ batch, country, findings, canEdit, foc
                   <td className="px-3 py-2">{r.national_id_masked || "—"}</td>
                   <td className="px-3 py-2">{r.concept_code || "—"}</td>
                   <td className="px-3 py-2">{formatDate(r.date)}</td>
-                  <td className="px-3 py-2 text-right">{r.quantity === null ? "—" : `${r.quantity} ${UNIT[r.unit] || ""}`}</td>
+                  <td className="px-3 py-2 text-right">{r.quantity === null ? "—" : `${r.quantity} ${unitLabel(r.unit, r.quantity)}`}</td>
                   <td className="px-3 py-2">{r.support_ref || "—"}</td>
                   <td className="px-3 py-2">
                     {rowFindings.length > 0 ? rowFindings.map((f) => f.code).join(", ") : <span className="text-niebla">—</span>}

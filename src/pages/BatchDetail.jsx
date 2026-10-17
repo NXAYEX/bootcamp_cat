@@ -42,7 +42,8 @@ export default function BatchDetail() {
     return out;
   }, [rules.data]);
 
-  if (batch.loading) return <LoadingState label="Cargando lote…" />;
+  // Solo la primera carga reemplaza la pantalla: al recargar se conserva la vista y el estado de la pestaña Filas.
+  if (batch.loading && !batch.data) return <LoadingState label="Cargando lote…" />;
   if (batch.error) return <ErrorState message={batch.error.message} onRetry={batch.reload} />;
   if (!batch.data) return <EmptyState title="Lote no encontrado">Puede que no exista o que pertenezca a una planta fuera de tu alcance.</EmptyState>;
 
@@ -50,6 +51,7 @@ export default function BatchDetail() {
   const list = findings.data || [];
   const counts = countOpen(list);
   const refresh = () => {
+    setFocus(null);
     batch.reload();
     findings.reload();
   };
@@ -127,7 +129,7 @@ export default function BatchDetail() {
       </div>
 
       {tab === "findings" ? (
-        findings.loading ? (
+        findings.loading && !findings.data ? (
           <LoadingState label="Cargando hallazgos…" />
         ) : findings.error ? (
           <ErrorState message={findings.error.message} onRetry={findings.reload} />
